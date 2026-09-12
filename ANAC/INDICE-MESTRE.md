@@ -85,6 +85,7 @@ Coleta das fontes oficiais (anac.gov.br + pergamum.anac.gov.br). Textos extraíd
 - is-121-012 (23644KB)
 - is-121-014 (10165KB)
 - is-121-015 (236KB)
+- is-121-018 (933KB — dividido em 10 partes: is-121-018.md + is-121-018-parte2..parte10.md; SEI embute o FAA Order 8260.3E/TERPS)
 - is-133-001 (32KB)
 - is-135-001 (629KB)
 - is-135-006 (629KB)
