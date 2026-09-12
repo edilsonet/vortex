@@ -81,15 +81,15 @@
  },
  "is": {
   "normas": 117,
-  "fragmentos": 2877
+  "fragmentos": 3041
  },
  "iac": {
   "normas": 13,
-  "fragmentos": 260
+  "fragmentos": 283
  },
  "resolucoes": {
-  "normas": 13,
-  "fragmentos": 13
+  "normas": 74,
+  "fragmentos": 74
  },
  "itens": [
   {
@@ -14127,6 +14127,18 @@
    "arquivo": "fragmentos/is/is-121-018--sec-16.md"
   },
   {
+   "norma": "is-121-020",
+   "secao": "cabecalho",
+   "titulo": "",
+   "arquivo": "fragmentos/is/is-121-020--sec-cabecalho.md"
+  },
+  {
+   "norma": "is-121-020",
+   "secao": "1",
+   "titulo": "significant overshoot).",
+   "arquivo": "fragmentos/is/is-121-020--sec-1.md"
+  },
+  {
    "norma": "is-121-022",
    "secao": "cabecalho",
    "titulo": "",
@@ -23817,6 +23829,132 @@
    "arquivo": "fragmentos/is/is-43-9-003--sec-7.1.md"
   },
   {
+   "norma": "is-43-9-004",
+   "secao": "cabecalho",
+   "titulo": "",
+   "arquivo": "fragmentos/is/is-43-9-004--sec-cabecalho.md"
+  },
+  {
+   "norma": "is-43-9-004",
+   "secao": "1",
+   "titulo": "OBJETIVO",
+   "arquivo": "fragmentos/is/is-43-9-004--sec-1.md"
+  },
+  {
+   "norma": "is-43-9-004",
+   "secao": "3.1",
+   "titulo": "A Resolução ANAC n° 458, de 20 de dezembro de 2017, doravante chamada de Resolução",
+   "arquivo": "fragmentos/is/is-43-9-004--sec-3.1.md"
+  },
+  {
+   "norma": "is-43-9-004",
+   "secao": "3.2",
+   "titulo": "Quando houver menção nesse documento à Resolução 458, deve ser entendido como a",
+   "arquivo": "fragmentos/is/is-43-9-004--sec-3.2.md"
+  },
+  {
+   "norma": "is-43-9-004",
+   "secao": "3.3",
+   "titulo": "A Resolução nº 511, de 11 de abril de 2019, altera a Resolução 458 possibilitando o uso do",
+   "arquivo": "fragmentos/is/is-43-9-004--sec-3.3.md"
+  },
+  {
+   "norma": "is-43-9-004",
+   "secao": "3.4",
+   "titulo": "O RBAC 43 versa sobre o conteúdo, forma e disposição de registros de manutenção,",
+   "arquivo": "fragmentos/is/is-43-9-004--sec-3.4.md"
+  },
+  {
+   "norma": "is-43-9-004",
+   "secao": "3.5",
+   "titulo": "Faz-se necessário esclarecer que todos os requisitos referentes aos registros de manutenção",
+   "arquivo": "fragmentos/is/is-43-9-004--sec-3.5.md"
+  },
+  {
+   "norma": "is-43-9-004",
+   "secao": "3.6",
+   "titulo": "Apesar de não se constituir uma lista exaustiva, em função do disposto no subitem 3.1, os",
+   "arquivo": "fragmentos/is/is-43-9-004--sec-3.6.md"
+  },
+  {
+   "norma": "is-43-9-004",
+   "secao": "4.1",
+   "titulo": "Adicionalmente às definições constantes no Regulamento Brasileiro de Aviação Civil -",
+   "arquivo": "fragmentos/is/is-43-9-004--sec-4.1.md"
+  },
+  {
+   "norma": "is-43-9-004",
+   "secao": "4.2",
+   "titulo": "dados significativos: informações de qualquer natureza requeridas pela legislação e",
+   "arquivo": "fragmentos/is/is-43-9-004--sec-4.2.md"
+  },
+  {
+   "norma": "is-43-9-004",
+   "secao": "4.3",
+   "titulo": "documento: dados significativos e os meios físicos ou digitais nos quais estão contidos",
+   "arquivo": "fragmentos/is/is-43-9-004--sec-4.3.md"
+  },
+  {
+   "norma": "is-43-9-004",
+   "secao": "4.4",
+   "titulo": "registro: documento preenchido e emitido por um ente regulado, que obrigatoriamente",
+   "arquivo": "fragmentos/is/is-43-9-004--sec-4.4.md"
+  },
+  {
+   "norma": "is-43-9-004",
+   "secao": "4.5",
+   "titulo": "Sistema de Documentos e Registros de Manutenção Eletrônicos (SDRMe): conjunto",
+   "arquivo": "fragmentos/is/is-43-9-004--sec-4.5.md"
+  },
+  {
+   "norma": "is-43-9-004",
+   "secao": "5.1",
+   "titulo": "Disposições Gerais",
+   "arquivo": "fragmentos/is/is-43-9-004--sec-5.1.md"
+  },
+  {
+   "norma": "is-43-9-004",
+   "secao": "5.2",
+   "titulo": "Características gerais do SDRMe",
+   "arquivo": "fragmentos/is/is-43-9-004--sec-5.2.md"
+  },
+  {
+   "norma": "is-43-9-004",
+   "secao": "5.3",
+   "titulo": "Implementação de SDRMe",
+   "arquivo": "fragmentos/is/is-43-9-004--sec-5.3.md"
+  },
+  {
+   "norma": "is-43-9-004",
+   "secao": "5.4",
+   "titulo": "Procedimentos para uso do SDRMe para registros eletrônicos",
+   "arquivo": "fragmentos/is/is-43-9-004--sec-5.4.md"
+  },
+  {
+   "norma": "is-43-9-004",
+   "secao": "5.5",
+   "titulo": "Procedimentos para uso do SDRMe para documentos eletrônicos",
+   "arquivo": "fragmentos/is/is-43-9-004--sec-5.5.md"
+  },
+  {
+   "norma": "is-43-9-004",
+   "secao": "5.6",
+   "titulo": "Processo de autorização para uso do SDRMe",
+   "arquivo": "fragmentos/is/is-43-9-004--sec-5.6.md"
+  },
+  {
+   "norma": "is-43-9-004",
+   "secao": "5.7",
+   "titulo": "Descontinuação de uso do SDRMe",
+   "arquivo": "fragmentos/is/is-43-9-004--sec-5.7.md"
+  },
+  {
+   "norma": "is-43-9-004",
+   "secao": "6",
+   "titulo": "DISPOSIÇÕES FINAIS",
+   "arquivo": "fragmentos/is/is-43-9-004--sec-6.md"
+  },
+  {
    "norma": "is-43.1-001",
    "secao": "cabecalho",
    "titulo": "",
@@ -25629,6 +25767,720 @@
    "arquivo": "fragmentos/is/is-91-002--sec-13.md"
   },
   {
+   "norma": "is-91-003b",
+   "secao": "cabecalho",
+   "titulo": "",
+   "arquivo": "fragmentos/is/is-91-003b--sec-cabecalho.md"
+  },
+  {
+   "norma": "is-91-003b",
+   "secao": "1.1",
+   "titulo": "A presente Instrução Suplementar apresenta:",
+   "arquivo": "fragmentos/is/is-91-003b--sec-1.1.md"
+  },
+  {
+   "norma": "is-91-003b",
+   "secao": "2.1",
+   "titulo": "Esta IS se aplica a operadores regidos pelos RBAC nº 121 e RBAC nº 135. Os procedimentos de",
+   "arquivo": "fragmentos/is/is-91-003b--sec-2.1.md"
+  },
+  {
+   "norma": "is-91-003b",
+   "secao": "2.2",
+   "titulo": "Apenas os operadores autorizados para operações de aproximação ILS CAT II, utilizando",
+   "arquivo": "fragmentos/is/is-91-003b--sec-2.2.md"
+  },
+  {
+   "norma": "is-91-003b",
+   "secao": "4.1",
+   "titulo": "A Resolução nº 30, de 21 de maio de 2008, institui em seu art. 14, a Instrução Suplementar – IS,",
+   "arquivo": "fragmentos/is/is-91-003b--sec-4.1.md"
+  },
+  {
+   "norma": "is-91-003b",
+   "secao": "4.2",
+   "titulo": "O administrado que pretenda, para qualquer finalidade, demonstrar o cumprimento de requisito",
+   "arquivo": "fragmentos/is/is-91-003b--sec-4.2.md"
+  },
+  {
+   "norma": "is-91-003b",
+   "secao": "4.3",
+   "titulo": "O meio ou procedimento alternativo mencionado na alínea 4.2(b) desta IS deve garantir nível de",
+   "arquivo": "fragmentos/is/is-91-003b--sec-4.3.md"
+  },
+  {
+   "norma": "is-91-003b",
+   "secao": "4.4",
+   "titulo": "A IS não pode criar novos requisitos ou contrariar requisitos estabelecidos em RBAC ou outro ato",
+   "arquivo": "fragmentos/is/is-91-003b--sec-4.4.md"
+  },
+  {
+   "norma": "is-91-003b",
+   "secao": "5.1",
+   "titulo": "Esta Instrução Suplementar utiliza alguns termos e definições na língua inglesa por entender que",
+   "arquivo": "fragmentos/is/is-91-003b--sec-5.1.md"
+  },
+  {
+   "norma": "is-91-003b",
+   "secao": "5.2",
+   "titulo": "No escopo desta IS são válidas todas as definições contidas no RBAC nº 01 e RBAC nº 91.",
+   "arquivo": "fragmentos/is/is-91-003b--sec-5.2.md"
+  },
+  {
+   "norma": "is-91-003b",
+   "secao": "5.3",
+   "titulo": "Aproximação estabilizada. Aproximação efetuada de maneira controlada e apropriada em",
+   "arquivo": "fragmentos/is/is-91-003b--sec-5.3.md"
+  },
+  {
+   "norma": "is-91-003b",
+   "secao": "5.4",
+   "titulo": "Certificação Suplementar de Tipo. Constitui uma aprovação de grande modificação introduzida",
+   "arquivo": "fragmentos/is/is-91-003b--sec-5.4.md"
+  },
+  {
+   "norma": "is-91-003b",
+   "secao": "5.5",
+   "titulo": "Combined Vision System. Sistema que disponibiliza simultaneamente imagens oriundas de um",
+   "arquivo": "fragmentos/is/is-91-003b--sec-5.5.md"
+  },
+  {
+   "norma": "is-91-003b",
+   "secao": "5.6",
+   "titulo": "Decolagem com Baixa Visibilidade. Termo utilizado com relação a operações de decolagem em",
+   "arquivo": "fragmentos/is/is-91-003b--sec-5.6.md"
+  },
+  {
+   "norma": "is-91-003b",
+   "secao": "5.7",
+   "titulo": "Enhanced Flight Vision System. É um EVS associado a um HUD.",
+   "arquivo": "fragmentos/is/is-91-003b--sec-5.7.md"
+  },
+  {
+   "norma": "is-91-003b",
+   "secao": "5.8",
+   "titulo": "Enhanced Vision System. Sistema que disponibiliza eletronicamente imagens em tempo real do",
+   "arquivo": "fragmentos/is/is-91-003b--sec-5.8.md"
+  },
+  {
+   "norma": "is-91-003b",
+   "secao": "5.9",
+   "titulo": "Flight Path Angle. Trajetória vertical na condição presente de potência, configuração e posição",
+   "arquivo": "fragmentos/is/is-91-003b--sec-5.9.md"
+  },
+  {
+   "norma": "is-91-003b",
+   "secao": "5.10",
+   "titulo": "Flight Path Vector. Consiste num ícone apresentado no PFD ou HUD que indica a trajetória da",
+   "arquivo": "fragmentos/is/is-91-003b--sec-5.10.md"
+  },
+  {
+   "norma": "is-91-003b",
+   "secao": "5.11",
+   "titulo": "Head-down Display. Sistema que disponibiliza informações de voo, de desempenho ou de",
+   "arquivo": "fragmentos/is/is-91-003b--sec-5.11.md"
+  },
+  {
+   "norma": "is-91-003b",
+   "secao": "5.12",
+   "titulo": "Head Up Guidance System. Um sistema óptico e eletrônico que gera e projeta informações de",
+   "arquivo": "fragmentos/is/is-91-003b--sec-5.12.md"
+  },
+  {
+   "norma": "is-91-003b",
+   "secao": "5.13",
+   "titulo": "Head-up Display. Sistema que disponibiliza informações de voo no campo de visão externo do",
+   "arquivo": "fragmentos/is/is-91-003b--sec-5.13.md"
+  },
+  {
+   "norma": "is-91-003b",
+   "secao": "5.14",
+   "titulo": "Low Visibility Procedures. Conjunto de procedimentos específicos aplicados em um aeródromo",
+   "arquivo": "fragmentos/is/is-91-003b--sec-5.14.md"
+  },
+  {
+   "norma": "is-91-003b",
+   "secao": "5.15",
+   "titulo": "Low Visibility Take-Off. Decolagem com visibilidade reduzida.",
+   "arquivo": "fragmentos/is/is-91-003b--sec-5.15.md"
+  },
+  {
+   "norma": "is-91-003b",
+   "secao": "5.16",
+   "titulo": "Synthetic Vision System. Sistema que disponibiliza aos tripulantes imagens externas geradas",
+   "arquivo": "fragmentos/is/is-91-003b--sec-5.16.md"
+  },
+  {
+   "norma": "is-91-003b",
+   "secao": "5.17",
+   "titulo": "Visibilidade Intensificada. Distância medida a frente da aeronave, como vista do posto de",
+   "arquivo": "fragmentos/is/is-91-003b--sec-5.17.md"
+  },
+  {
+   "norma": "is-91-003b",
+   "secao": "6.1",
+   "titulo": "Permanecem válidas no presente documento as abreviaturas detalhadas no RBAC nº 01, ou no",
+   "arquivo": "fragmentos/is/is-91-003b--sec-6.1.md"
+  },
+  {
+   "norma": "is-91-003b",
+   "secao": "6.2",
+   "titulo": "Esta IS utiliza algumas abreviaturas de termos na língua inglesa por entender que os mesmos já",
+   "arquivo": "fragmentos/is/is-91-003b--sec-6.2.md"
+  },
+  {
+   "norma": "is-91-003b",
+   "secao": "6.3",
+   "titulo": "ACAS – Air Collision Avoidance System;",
+   "arquivo": "fragmentos/is/is-91-003b--sec-6.3.md"
+  },
+  {
+   "norma": "is-91-003b",
+   "secao": "6.4",
+   "titulo": "ALSF-1 – Approach Lighting System with Sequenced Flashing Lights configuration 1;",
+   "arquivo": "fragmentos/is/is-91-003b--sec-6.4.md"
+  },
+  {
+   "norma": "is-91-003b",
+   "secao": "6.5",
+   "titulo": "ALSF-2 – Approach Lighting System with Sequenced Flashing Lights configuration 2;",
+   "arquivo": "fragmentos/is/is-91-003b--sec-6.5.md"
+  },
+  {
+   "norma": "is-91-003b",
+   "secao": "6.8",
+   "titulo": "CST – Certificado Suplementar de Tipo;",
+   "arquivo": "fragmentos/is/is-91-003b--sec-6.8.md"
+  },
+  {
+   "norma": "is-91-003b",
+   "secao": "6.13",
+   "titulo": "EFVS – Enhanced Flight Vision System;",
+   "arquivo": "fragmentos/is/is-91-003b--sec-6.13.md"
+  },
+  {
+   "norma": "is-91-003b",
+   "secao": "6.17",
+   "titulo": "FSTD – Flight Simulation Training Device;",
+   "arquivo": "fragmentos/is/is-91-003b--sec-6.17.md"
+  },
+  {
+   "norma": "is-91-003b",
+   "secao": "6.18",
+   "titulo": "GPWS – Ground Proximity Warning System;",
+   "arquivo": "fragmentos/is/is-91-003b--sec-6.18.md"
+  },
+  {
+   "norma": "is-91-003b",
+   "secao": "6.25",
+   "titulo": "MALSR – Medium-intensity Approach Lighting System with Runway Alignment Indicator",
+   "arquivo": "fragmentos/is/is-91-003b--sec-6.25.md"
+  },
+  {
+   "norma": "is-91-003b",
+   "secao": "6.29",
+   "titulo": "RNP – Required Navigation Performance;",
+   "arquivo": "fragmentos/is/is-91-003b--sec-6.29.md"
+  },
+  {
+   "norma": "is-91-003b",
+   "secao": "6.31",
+   "titulo": "SOCMS – Sistema de Orientação e Controle da Movimentação no Solo;",
+   "arquivo": "fragmentos/is/is-91-003b--sec-6.31.md"
+  },
+  {
+   "norma": "is-91-003b",
+   "secao": "6.32",
+   "titulo": "SSALR – Simplified Short Approach Lighting System with Runway Alignment Indicator Lights;",
+   "arquivo": "fragmentos/is/is-91-003b--sec-6.32.md"
+  },
+  {
+   "norma": "is-91-003b",
+   "secao": "6.34",
+   "titulo": "TDA – Type Design Approval;",
+   "arquivo": "fragmentos/is/is-91-003b--sec-6.34.md"
+  },
+  {
+   "norma": "is-91-003b",
+   "secao": "7.1",
+   "titulo": "Os mínimos meteorológicos para uma particular operação devem assegurar que a combinação de",
+   "arquivo": "fragmentos/is/is-91-003b--sec-7.1.md"
+  },
+  {
+   "norma": "is-91-003b",
+   "secao": "7.2",
+   "titulo": "Na definição dos mínimos meteorológicos para determinada operação se faz necessário avaliar",
+   "arquivo": "fragmentos/is/is-91-003b--sec-7.2.md"
+  },
+  {
+   "norma": "is-91-003b",
+   "secao": "7.3",
+   "titulo": "O Head Up Display consiste de um sistema de aquisição de dados através de radar, rádio",
+   "arquivo": "fragmentos/is/is-91-003b--sec-7.3.md"
+  },
+  {
+   "norma": "is-91-003b",
+   "secao": "7.4",
+   "titulo": "Quando o HUD apresenta os dados primários de voo e de navegação que se sobrepõem à cena",
+   "arquivo": "fragmentos/is/is-91-003b--sec-7.4.md"
+  },
+  {
+   "norma": "is-91-003b",
+   "secao": "7.5",
+   "titulo": "A utilização do HGS pode melhorar a consciência situacional pela combinação de informação de",
+   "arquivo": "fragmentos/is/is-91-003b--sec-7.5.md"
+  },
+  {
+   "norma": "is-91-003b",
+   "secao": "7.6",
+   "titulo": "O HGS pode ser utilizado com os seguintes propósitos:",
+   "arquivo": "fragmentos/is/is-91-003b--sec-7.6.md"
+  },
+  {
+   "norma": "is-91-003b",
+   "secao": "7.7",
+   "titulo": "Quando a utilização da informação apresentada pelo HGS for utilizada como display primário de",
+   "arquivo": "fragmentos/is/is-91-003b--sec-7.7.md"
+  },
+  {
+   "norma": "is-91-003b",
+   "secao": "7.8",
+   "titulo": "O operador deve estabelecer políticas e procedimentos que devem ser submetidos à aprovação da",
+   "arquivo": "fragmentos/is/is-91-003b--sec-7.8.md"
+  },
+  {
+   "norma": "is-91-003b",
+   "secao": "7.9",
+   "titulo": "Não é escopo desta IS abordar aspectos de aeronavegabilidade, uma vez que os equipamentos",
+   "arquivo": "fragmentos/is/is-91-003b--sec-7.9.md"
+  },
+  {
+   "norma": "is-91-003b",
+   "secao": "8.1",
+   "titulo": "Esta seção estabelece a metodologia aplicada ao processo de aprovação adotado pela",
+   "arquivo": "fragmentos/is/is-91-003b--sec-8.1.md"
+  },
+  {
+   "norma": "is-91-003b",
+   "secao": "8.2",
+   "titulo": "Após o término do processo, a autorização para conduzir operações CAT I AR e LVTO devem ser",
+   "arquivo": "fragmentos/is/is-91-003b--sec-8.2.md"
+  },
+  {
+   "norma": "is-91-003b",
+   "secao": "8.3",
+   "titulo": "A autorização expressa deve ser restrita ao menor valor de teto ou visibilidade na qual o operador",
+   "arquivo": "fragmentos/is/is-91-003b--sec-8.3.md"
+  },
+  {
+   "norma": "is-91-003b",
+   "secao": "9.1",
+   "titulo": "O Anexo 6 à Convenção de Aviação Civil Internacional, ICAO, prevê que o Estado do operador",
+   "arquivo": "fragmentos/is/is-91-003b--sec-9.1.md"
+  },
+  {
+   "norma": "is-91-003b",
+   "secao": "9.2",
+   "titulo": "Considerando que a Circular de Informação Aeronáutica n° 53/18, publicada em novembro de",
+   "arquivo": "fragmentos/is/is-91-003b--sec-9.2.md"
+  },
+  {
+   "norma": "is-91-003b",
+   "secao": "9.3",
+   "titulo": "Os procedimentos ILS CAT I AR descritos nessa IS, destinados a operadores especificamente",
+   "arquivo": "fragmentos/is/is-91-003b--sec-9.3.md"
+  },
+  {
+   "norma": "is-91-003b",
+   "secao": "9.4",
+   "titulo": "As LVTO, abordadas nesta IS, também destinada a operadores especificamente aprovados",
+   "arquivo": "fragmentos/is/is-91-003b--sec-9.4.md"
+  },
+  {
+   "norma": "is-91-003b",
+   "secao": "9.5",
+   "titulo": "Em resumo, estes são os mínimos meteorológicos possíveis de serem alcançados quando",
+   "arquivo": "fragmentos/is/is-91-003b--sec-9.5.md"
+  },
+  {
+   "norma": "is-91-003b",
+   "secao": "10.1",
+   "titulo": "Nenhum piloto operando uma aeronave, em uma aproximação ILS CAT I AR, que prevê e",
+   "arquivo": "fragmentos/is/is-91-003b--sec-10.1.md"
+  },
+  {
+   "norma": "is-91-003b",
+   "secao": "10.2",
+   "titulo": "O piloto operando uma aeronave deve executar imediatamente o apropriado procedimento de",
+   "arquivo": "fragmentos/is/is-91-003b--sec-10.2.md"
+  },
+  {
+   "norma": "is-91-003b",
+   "secao": "11.1",
+   "titulo": "Não é escopo desta IS o detalhamento dos requisitos de aeronavegabilidade que os sistemas",
+   "arquivo": "fragmentos/is/is-91-003b--sec-11.1.md"
+  },
+  {
+   "norma": "is-91-003b",
+   "secao": "11.2",
+   "titulo": "Para que um HGS seja elegível a aproximações ILS CAT I AR e decolagens LVTO",
+   "arquivo": "fragmentos/is/is-91-003b--sec-11.2.md"
+  },
+  {
+   "norma": "is-91-003b",
+   "secao": "12.1",
+   "titulo": "A fim de obtenção de créditos meteorológicos o HGS deve necessariamente disponibilizar a",
+   "arquivo": "fragmentos/is/is-91-003b--sec-12.1.md"
+  },
+  {
+   "norma": "is-91-003b",
+   "secao": "12.2",
+   "titulo": "Além do item 12.1, o HGS deve disponibilizar, no mínimo, as seguintes informações:",
+   "arquivo": "fragmentos/is/is-91-003b--sec-12.2.md"
+  },
+  {
+   "norma": "is-91-003b",
+   "secao": "12.3",
+   "titulo": "No emprego do EFVS as referências as imagens devem ser disponibilizadas de forma alinhada e",
+   "arquivo": "fragmentos/is/is-91-003b--sec-12.3.md"
+  },
+  {
+   "norma": "is-91-003b",
+   "secao": "13.1",
+   "titulo": "As imagens em tempo real e as demais informações apresentadas através do EFVS devem ser",
+   "arquivo": "fragmentos/is/is-91-003b--sec-13.1.md"
+  },
+  {
+   "norma": "is-91-003b",
+   "secao": "13.2",
+   "titulo": "Deve ser garantida a ergometria do sistema, de modo a garantir que as informações estejam",
+   "arquivo": "fragmentos/is/is-91-003b--sec-13.2.md"
+  },
+  {
+   "norma": "is-91-003b",
+   "secao": "14.1",
+   "titulo": "A definição de EFVS não deve ser confundida com a definição de EVS. Um EVS é um meio",
+   "arquivo": "fragmentos/is/is-91-003b--sec-14.1.md"
+  },
+  {
+   "norma": "is-91-003b",
+   "secao": "14.2",
+   "titulo": "A utilização do EVS pode melhorar a consciência situacional dos tripulantes em determinadas",
+   "arquivo": "fragmentos/is/is-91-003b--sec-14.2.md"
+  },
+  {
+   "norma": "is-91-003b",
+   "secao": "14.3",
+   "titulo": "Durante algumas condições de visibilidade reduzida, um EFVS pode disponibilizar imagens que",
+   "arquivo": "fragmentos/is/is-91-003b--sec-14.3.md"
+  },
+  {
+   "norma": "is-91-003b",
+   "secao": "14.4",
+   "titulo": "Só existe a previsão de operar abaixo da DA ou DH durante uma aproximação de precisão",
+   "arquivo": "fragmentos/is/is-91-003b--sec-14.4.md"
+  },
+  {
+   "norma": "is-91-003b",
+   "secao": "14.5",
+   "titulo": "As cores das luzes disponibilizadas através do EFVS podem não ser fielmente representadas no",
+   "arquivo": "fragmentos/is/is-91-003b--sec-14.5.md"
+  },
+  {
+   "norma": "is-91-003b",
+   "secao": "14.6",
+   "titulo": "Pela razão exposta no item anterior as luzes indicadoras de trajetória vertical, PAPI, não devem",
+   "arquivo": "fragmentos/is/is-91-003b--sec-14.6.md"
+  },
+  {
+   "norma": "is-91-003b",
+   "secao": "14.7",
+   "titulo": "Esta IS não determina que o EFVS seja desligado ou seu display seja recolhido para a",
+   "arquivo": "fragmentos/is/is-91-003b--sec-14.7.md"
+  },
+  {
+   "norma": "is-91-003b",
+   "secao": "14.8",
+   "titulo": "Lâmpadas com tecnologia LED podem não ser visíveis aos equipamentos que utilizam",
+   "arquivo": "fragmentos/is/is-91-003b--sec-14.8.md"
+  },
+  {
+   "norma": "is-91-003b",
+   "secao": "15.1",
+   "titulo": "Este capítulo trata de operações de aproximações ILS com alcance visual da pista, RVR, mínimo",
+   "arquivo": "fragmentos/is/is-91-003b--sec-15.1.md"
+  },
+  {
+   "norma": "is-91-003b",
+   "secao": "15.2",
+   "titulo": "Durante a execução de aproximações ILS CAT I AR os órgão ATC e/ou o administrador",
+   "arquivo": "fragmentos/is/is-91-003b--sec-15.2.md"
+  },
+  {
+   "norma": "is-91-003b",
+   "secao": "15.3",
+   "titulo": "O conceito de aproximação estabilizada é amplamente utilizado pela indústria com o propósito",
+   "arquivo": "fragmentos/is/is-91-003b--sec-15.3.md"
+  },
+  {
+   "norma": "is-91-003b",
+   "secao": "15.4",
+   "titulo": "Conforme previsão da AIC N° 53-18, publicada pelo DECEA, para serem elegíveis para",
+   "arquivo": "fragmentos/is/is-91-003b--sec-15.4.md"
+  },
+  {
+   "norma": "is-91-003b",
+   "secao": "15.5",
+   "titulo": "Nos procedimentos ILS CAT I AR, a inclinação da rampa de descida normalmente será de 3",
+   "arquivo": "fragmentos/is/is-91-003b--sec-15.5.md"
+  },
+  {
+   "norma": "is-91-003b",
+   "secao": "15.6",
+   "titulo": "Somente aeronaves operadas por dois pilotos são autorizadas a utilizar os mínimos",
+   "arquivo": "fragmentos/is/is-91-003b--sec-15.6.md"
+  },
+  {
+   "norma": "is-91-003b",
+   "secao": "15.7",
+   "titulo": "A pista em uso deve ter distância de pouso declarada superior a 1500 metros.",
+   "arquivo": "fragmentos/is/is-91-003b--sec-15.7.md"
+  },
+  {
+   "norma": "is-91-003b",
+   "secao": "15.8",
+   "titulo": "Apenas os operadores certificados para as aproximações ILS CAT II utilizando aeronaves",
+   "arquivo": "fragmentos/is/is-91-003b--sec-15.8.md"
+  },
+  {
+   "norma": "is-91-003b",
+   "secao": "15.9",
+   "titulo": "A pista deve disponibilizar os seguintes auxílios luminosos e equipamentos auxiliares:",
+   "arquivo": "fragmentos/is/is-91-003b--sec-15.9.md"
+  },
+  {
+   "norma": "is-91-003b",
+   "secao": "15.10",
+   "titulo": "Na tabela abaixo estão discriminadas as restrições operacionais quanto à funcionalidade dos",
+   "arquivo": "fragmentos/is/is-91-003b--sec-15.10.md"
+  },
+  {
+   "norma": "is-91-003b",
+   "secao": "15.11",
+   "titulo": "As restrições operacionais aplicáveis aos procedimentos de aproximação ILS CAT I, descritas",
+   "arquivo": "fragmentos/is/is-91-003b--sec-15.11.md"
+  },
+  {
+   "norma": "is-91-003b",
+   "secao": "16.1",
+   "titulo": "Durante as operações de decolagem, as referências visuais devem ser suficientes para garantir",
+   "arquivo": "fragmentos/is/is-91-003b--sec-16.1.md"
+  },
+  {
+   "norma": "is-91-003b",
+   "secao": "16.2",
+   "titulo": "As operações LVTO referidas nesta IS são balizadas nas indicações do localizador do sistema",
+   "arquivo": "fragmentos/is/is-91-003b--sec-16.2.md"
+  },
+  {
+   "norma": "is-91-003b",
+   "secao": "16.3",
+   "titulo": "Os mínimos de decolagem são expressos em termos de visibilidade e alcance visual na pista,",
+   "arquivo": "fragmentos/is/is-91-003b--sec-16.3.md"
+  },
+  {
+   "norma": "is-91-003b",
+   "secao": "16.4",
+   "titulo": "Somente aeronaves operadas por dois pilotos são autorizadas a utilizar os mínimos",
+   "arquivo": "fragmentos/is/is-91-003b--sec-16.4.md"
+  },
+  {
+   "norma": "is-91-003b",
+   "secao": "16.5",
+   "titulo": "Sistemas embarcados normalmente utilizados nas decolagens, sem os créditos meteorológicos,",
+   "arquivo": "fragmentos/is/is-91-003b--sec-16.5.md"
+  },
+  {
+   "norma": "is-91-003b",
+   "secao": "16.6",
+   "titulo": "Quando as operações LVTO estiverem associadas a um procedimento RNP, as disposições",
+   "arquivo": "fragmentos/is/is-91-003b--sec-16.6.md"
+  },
+  {
+   "norma": "is-91-003b",
+   "secao": "16.7",
+   "titulo": "Para as operações com RVR abaixo de 400 metros, o aeródromo deverá possuir procedimentos",
+   "arquivo": "fragmentos/is/is-91-003b--sec-16.7.md"
+  },
+  {
+   "norma": "is-91-003b",
+   "secao": "16.8",
+   "titulo": "O operador deve certificar-se que as informações relevantes às operações devem ser de",
+   "arquivo": "fragmentos/is/is-91-003b--sec-16.8.md"
+  },
+  {
+   "norma": "is-91-003b",
+   "secao": "16.9",
+   "titulo": "Em conformidade com o RBAC 154, uma barra de parada deve ser instalada em todas as",
+   "arquivo": "fragmentos/is/is-91-003b--sec-16.9.md"
+  },
+  {
+   "norma": "is-91-003b",
+   "secao": "16.10",
+   "titulo": "Os aeródromos em que o Sistema de Orientação e Controle da Movimentação no Solo,",
+   "arquivo": "fragmentos/is/is-91-003b--sec-16.10.md"
+  },
+  {
+   "norma": "is-91-003b",
+   "secao": "16.11",
+   "titulo": "O detentor de aprovação LVTO com o emprego do HGS está autorizado a conduzir operações",
+   "arquivo": "fragmentos/is/is-91-003b--sec-16.11.md"
+  },
+  {
+   "norma": "is-91-003b",
+   "secao": "16.12",
+   "titulo": "Na tabela abaixo estão discriminadas as restrições operacionais quanto à funcionalidade dos",
+   "arquivo": "fragmentos/is/is-91-003b--sec-16.12.md"
+  },
+  {
+   "norma": "is-91-003b",
+   "secao": "16.13",
+   "titulo": "Na tabela a seguir estão discriminados os requisitos mínimos de pista associados aos valores",
+   "arquivo": "fragmentos/is/is-91-003b--sec-16.13.md"
+  },
+  {
+   "norma": "is-91-003b",
+   "secao": "17.1",
+   "titulo": "É mandatório treinamento específico para operadores realizarem procedimentos de aproximação",
+   "arquivo": "fragmentos/is/is-91-003b--sec-17.1.md"
+  },
+  {
+   "norma": "is-91-003b",
+   "secao": "17.2",
+   "titulo": "O treinamento mínimo recomendado para pilotos envolvidos nas operações com HGS deve",
+   "arquivo": "fragmentos/is/is-91-003b--sec-17.2.md"
+  },
+  {
+   "norma": "is-91-003b",
+   "secao": "17.3",
+   "titulo": "Aos pilotos envolvidos nas operações que utilizam o EFVS o treinamento recomendado no item",
+   "arquivo": "fragmentos/is/is-91-003b--sec-17.3.md"
+  },
+  {
+   "norma": "is-91-003b",
+   "secao": "17.4",
+   "titulo": "O treinamento periódico requerido para a manutenção e renovação das habilitações da tripulação",
+   "arquivo": "fragmentos/is/is-91-003b--sec-17.4.md"
+  },
+  {
+   "norma": "is-91-003b",
+   "secao": "17.5",
+   "titulo": "Os pilotos devem ser treinados nos seus respectivos postos de pilotagem utilizando os mínimos",
+   "arquivo": "fragmentos/is/is-91-003b--sec-17.5.md"
+  },
+  {
+   "norma": "is-91-003b",
+   "secao": "17.6",
+   "titulo": "Durante os exames iniciais ou periódicos os pilotos devem ser avaliados nas condições",
+   "arquivo": "fragmentos/is/is-91-003b--sec-17.6.md"
+  },
+  {
+   "norma": "is-91-003b",
+   "secao": "17.7",
+   "titulo": "Operadores regidos pelo RBAC 121 e 135 devem incluir nos currículos de solo dos",
+   "arquivo": "fragmentos/is/is-91-003b--sec-17.7.md"
+  },
+  {
+   "norma": "is-91-003b",
+   "secao": "17.8",
+   "titulo": "Sempre que um operador solicitar autorização para conduzir operações de decolagem com",
+   "arquivo": "fragmentos/is/is-91-003b--sec-17.8.md"
+  },
+  {
+   "norma": "is-91-003b",
+   "secao": "17.9",
+   "titulo": "O treinamento das tripulações deve garantir o conhecimento dos equipamentos utilizados, os",
+   "arquivo": "fragmentos/is/is-91-003b--sec-17.9.md"
+  },
+  {
+   "norma": "is-91-003b",
+   "secao": "17.10",
+   "titulo": "Os operadores aéreos devem incluir treinamentos de diferenças para seus tripulantes",
+   "arquivo": "fragmentos/is/is-91-003b--sec-17.10.md"
+  },
+  {
+   "norma": "is-91-003b",
+   "secao": "18.1",
+   "titulo": "O requerente deve solicitar a revisão das Especificações Operativas ou a emissão da LOA. Os",
+   "arquivo": "fragmentos/is/is-91-003b--sec-18.1.md"
+  },
+  {
+   "norma": "is-91-003b",
+   "secao": "19.1",
+   "titulo": "Compete ao piloto em comando:",
+   "arquivo": "fragmentos/is/is-91-003b--sec-19.1.md"
+  },
+  {
+   "norma": "is-91-003b",
+   "secao": "20.1",
+   "titulo": "Não existem mínimos meteorológicos estabelecidos para o táxi. O piloto em comando é o",
+   "arquivo": "fragmentos/is/is-91-003b--sec-20.1.md"
+  },
+  {
+   "norma": "is-91-003b",
+   "secao": "20.2",
+   "titulo": "Procedimentos específicos de táxi em condições de baixa visibilidade devem ser adotados pelo",
+   "arquivo": "fragmentos/is/is-91-003b--sec-20.2.md"
+  },
+  {
+   "norma": "is-91-003b",
+   "secao": "21.1",
+   "titulo": "É requerido o envolvimento do administrador do aeroporto por meio de uma carta de acordo",
+   "arquivo": "fragmentos/is/is-91-003b--sec-21.1.md"
+  },
+  {
+   "norma": "is-91-003b",
+   "secao": "21.2",
+   "titulo": "Para operações de decolagem com RVR abaixo de 400 m, o aeródromo deve possuir",
+   "arquivo": "fragmentos/is/is-91-003b--sec-21.2.md"
+  },
+  {
+   "norma": "is-91-003b",
+   "secao": "21.3",
+   "titulo": "Os aeródromos em que o SOCMS (Sistema de Orientação e Controle da Movimentação no",
+   "arquivo": "fragmentos/is/is-91-003b--sec-21.3.md"
+  },
+  {
+   "norma": "is-91-003b",
+   "secao": "21.4",
+   "titulo": "Não é requerido do operador aéreo a apresentação ou o conhecimento da Carta de Acordo",
+   "arquivo": "fragmentos/is/is-91-003b--sec-21.4.md"
+  },
+  {
+   "norma": "is-91-003b",
+   "secao": "22.1",
+   "titulo": "Após a obtenção da aprovação operacional, o operador deve levar em consideração diversos",
+   "arquivo": "fragmentos/is/is-91-003b--sec-22.1.md"
+  },
+  {
+   "norma": "is-91-003b",
+   "secao": "22.2",
+   "titulo": "Faz parte ainda do processo de qualificação do operador um período inicial onde pode ser",
+   "arquivo": "fragmentos/is/is-91-003b--sec-22.2.md"
+  },
+  {
+   "norma": "is-91-003b",
+   "secao": "23.1",
+   "titulo": "A prerrogativa do órgão regulador conceder autorização específica para operações com mínimos",
+   "arquivo": "fragmentos/is/is-91-003b--sec-23.1.md"
+  },
+  {
+   "norma": "is-91-003b",
+   "secao": "23.2",
+   "titulo": "A autorização nas Especificações Operativas ou na LOA do operador deve conter expressamente",
+   "arquivo": "fragmentos/is/is-91-003b--sec-23.2.md"
+  },
+  {
    "norma": "is-91-004",
    "secao": "cabecalho",
    "titulo": "",
@@ -25849,6 +26701,138 @@
    "secao": "8",
    "titulo": "AC FEEDBACK FORM. For your convenience, the AC Feedback Form is the last page of",
    "arquivo": "fragmentos/is/is-91-011--sec-8.md"
+  },
+  {
+   "norma": "is-91-012-1",
+   "secao": "1.1",
+   "titulo": "Apresentar uma metodologia que proporcione a elaboração de Lista de Equipamentos Mínimos (MEL) aceitável pela Anac, capa",
+   "arquivo": "fragmentos/is/is-91-012-1--sec-1.1.md"
+  },
+  {
+   "norma": "is-91-012-1",
+   "secao": "1.2",
+   "titulo": "Apresentar os procedimentos requeridos no processo de aprovação e revisão de MEL, desde sua submissão à análise da Anac ",
+   "arquivo": "fragmentos/is/is-91-012-1--sec-1.2.md"
+  },
+  {
+   "norma": "is-91-012-1",
+   "secao": "1.3",
+   "titulo": "Apresentar os procedimentos para utilização em serviço da MEL aprovada.",
+   "arquivo": "fragmentos/is/is-91-012-1--sec-1.3.md"
+  },
+  {
+   "norma": "is-91-012-1",
+   "secao": "1.4",
+   "titulo": "Apresentar os procedimentos para operação com equipamentos e instrumentos inoperantes, sem MEL aprovada, conforme o pará",
+   "arquivo": "fragmentos/is/is-91-012-1--sec-1.4.md"
+  },
+  {
+   "norma": "is-91-012-1",
+   "secao": "2.1",
+   "titulo": "Esta IS revoga a IS nº 91-012, Revisão B.",
+   "arquivo": "fragmentos/is/is-91-012-1--sec-2.1.md"
+  },
+  {
+   "norma": "is-91-012-1",
+   "secao": "3.1",
+   "titulo": "A Resolução nº 30, de 21 de maio de 2008, institui em seu art. 14, a Instrução Suplementar – IS, norma suplementar de ca",
+   "arquivo": "fragmentos/is/is-91-012-1--sec-3.1.md"
+  },
+  {
+   "norma": "is-91-012-1",
+   "secao": "3.2",
+   "titulo": "O administrado que pretenda, para qualquer finalidade, demonstrar o cumprimento de requisito previsto em RBAC, poderá:",
+   "arquivo": "fragmentos/is/is-91-012-1--sec-3.2.md"
+  },
+  {
+   "norma": "is-91-012-1",
+   "secao": "3.3",
+   "titulo": "O meio ou procedimento alternativo mencionado no parágrafo 3.2(b) desta IS deve garantir nível de segurança igual ou sup",
+   "arquivo": "fragmentos/is/is-91-012-1--sec-3.3.md"
+  },
+  {
+   "norma": "is-91-012-1",
+   "secao": "3.4",
+   "titulo": "A IS não pode criar novos requisitos ou contrariar requisitos estabelecidos em RBAC ou outro ato normativo.",
+   "arquivo": "fragmentos/is/is-91-012-1--sec-3.4.md"
+  },
+  {
+   "norma": "is-91-012-1",
+   "secao": "3.5",
+   "titulo": "Esta IS é fundamentada e objetiva oferecer método de cumprimento às seções 91.213 e 91.1115 do RBAC nº 91, 121.628 do RB",
+   "arquivo": "fragmentos/is/is-91-012-1--sec-3.5.md"
+  },
+  {
+   "norma": "is-91-012-1",
+   "secao": "4.1",
+   "titulo": "Para os efeitos desta IS, são válidas as definições listadas na seção 01.1 do RBAC nº 01, na IS nº 118-001 e as seguinte",
+   "arquivo": "fragmentos/is/is-91-012-1--sec-4.1.md"
+  },
+  {
+   "norma": "is-91-012-1",
+   "secao": "4.2",
+   "titulo": "Lista de abreviaturas:",
+   "arquivo": "fragmentos/is/is-91-012-1--sec-4.2.md"
+  },
+  {
+   "norma": "is-91-012-1",
+   "secao": "5.1",
+   "titulo": "Elaboração da MEL",
+   "arquivo": "fragmentos/is/is-91-012-1--sec-5.1.md"
+  },
+  {
+   "norma": "is-91-012-1",
+   "secao": "5.2",
+   "titulo": "Processos de aprovação, revisão e revogação de aprovação da MEL",
+   "arquivo": "fragmentos/is/is-91-012-1--sec-5.2.md"
+  },
+  {
+   "norma": "is-91-012-1",
+   "secao": "5.3",
+   "titulo": "Utilização da MEL em serviço",
+   "arquivo": "fragmentos/is/is-91-012-1--sec-5.3.md"
+  },
+  {
+   "norma": "is-91-012-1",
+   "secao": "5.4",
+   "titulo": "Operação com equipamentos e instrumentos inoperantes, sem MEL aprovada",
+   "arquivo": "fragmentos/is/is-91-012-1--sec-5.4.md"
+  },
+  {
+   "norma": "is-91-012-1",
+   "secao": "7.1",
+   "titulo": "Os casos omissos serão dirimidos pela Anac.",
+   "arquivo": "fragmentos/is/is-91-012-1--sec-7.1.md"
+  },
+  {
+   "norma": "is-91-012-1",
+   "secao": "7.2",
+   "titulo": "O operador pode utilizar uma MEL aprovada com base na IAC 3507-121/135 – 1298. Essa MEL deve ser revisada caso:",
+   "arquivo": "fragmentos/is/is-91-012-1--sec-7.2.md"
+  },
+  {
+   "norma": "is-91-014",
+   "secao": "cabecalho",
+   "titulo": "",
+   "arquivo": "fragmentos/is/is-91-014--sec-cabecalho.md"
+  },
+  {
+   "norma": "is-91-014",
+   "secao": "2",
+   "titulo": "AY1-2Z68.:2[O2E212TJ",
+   "arquivo": "fragmentos/is/is-91-014--sec-2.md"
+  },
+  {
+   "norma": "is-91-014",
+   "secao": "3",
+   "titulo": "71A<",
+   "arquivo": "fragmentos/is/is-91-014--sec-3.md"
+  },
+  {
+   "norma": "is-91-014",
+   "secao": "4",
+   "titulo": "C3.90?@31/3713F75J286371;.-7-45-71407",
+   "arquivo": "fragmentos/is/is-91-014--sec-4.md"
   },
   {
    "norma": "is-91-21-001",
@@ -27417,6 +28401,144 @@
    "arquivo": "fragmentos/iac/iac-200-1001--sec-9.md"
   },
   {
+   "norma": "iac-201",
+   "secao": "cabecalho",
+   "titulo": "",
+   "arquivo": "fragmentos/iac/iac-201--sec-cabecalho.md"
+  },
+  {
+   "norma": "iac-201",
+   "secao": "2",
+   "titulo": "- Guia de Recolhimento da Previdência Social (*536); e",
+   "arquivo": "fragmentos/iac/iac-201--sec-2.md"
+  },
+  {
+   "norma": "iac-201",
+   "secao": "3",
+   "titulo": "- Comprovante de Visita.",
+   "arquivo": "fragmentos/iac/iac-201--sec-3.md"
+  },
+  {
+   "norma": "iac-201",
+   "secao": "3.1",
+   "titulo": "- São contribuintes do Fundo Aeroviário todas as empresas privadas, públicas, de",
+   "arquivo": "fragmentos/iac/iac-201--sec-3.1.md"
+  },
+  {
+   "norma": "iac-201",
+   "secao": "4.1",
+   "titulo": "- As entidades, cujas atividades estão enquadradas no item III, são obrigadas a recolher",
+   "arquivo": "fragmentos/iac/iac-201--sec-4.1.md"
+  },
+  {
+   "norma": "iac-201",
+   "secao": "4.2",
+   "titulo": "- O termo taxa também se aplica aos percentuais que fixam as contribuições devidas",
+   "arquivo": "fragmentos/iac/iac-201--sec-4.2.md"
+  },
+  {
+   "norma": "iac-201",
+   "secao": "4.3",
+   "titulo": "- As taxas atualmente em vigor são as constantes do Anexo III (Contribuições de",
+   "arquivo": "fragmentos/iac/iac-201--sec-4.3.md"
+  },
+  {
+   "norma": "iac-201",
+   "secao": "4.4",
+   "titulo": "- Cada empresa, dependendo da natureza de sua atividade, é vinculada a alguns",
+   "arquivo": "fragmentos/iac/iac-201--sec-4.4.md"
+  },
+  {
+   "norma": "iac-201",
+   "secao": "5.1",
+   "titulo": "- As contribuições devidas por uma empresa são efetivadas mediante o preenchimento",
+   "arquivo": "fragmentos/iac/iac-201--sec-5.1.md"
+  },
+  {
+   "norma": "iac-201",
+   "secao": "5.2",
+   "titulo": "- O correto preenchimento da *536 é de inteira responsabilidade do contribuinte, ainda",
+   "arquivo": "fragmentos/iac/iac-201--sec-5.2.md"
+  },
+  {
+   "norma": "iac-201",
+   "secao": "5.3",
+   "titulo": "- Dependendo das suas atividades, uma empresa preencherá uma ou várias *536 por",
+   "arquivo": "fragmentos/iac/iac-201--sec-5.3.md"
+  },
+  {
+   "norma": "iac-201",
+   "secao": "5.4",
+   "titulo": "- Os prazos para o recolhimento das contribuições são estabelecidos pelo INSS,",
+   "arquivo": "fragmentos/iac/iac-201--sec-5.4.md"
+  },
+  {
+   "norma": "iac-201",
+   "secao": "6.1",
+   "titulo": "- A *536 é utilizada obrigatoriamente pela empresa para o recolhimento das",
+   "arquivo": "fragmentos/iac/iac-201--sec-6.1.md"
+  },
+  {
+   "norma": "iac-201",
+   "secao": "6.2",
+   "titulo": "- Para quitação de débito incluído em parcelamento ou notificação, o contribuinte",
+   "arquivo": "fragmentos/iac/iac-201--sec-6.2.md"
+  },
+  {
+   "norma": "iac-201",
+   "secao": "6.3",
+   "titulo": "- Sempre que houver parcelamento de débitos junto ao INSS, caberá à empresa enviar",
+   "arquivo": "fragmentos/iac/iac-201--sec-6.3.md"
+  },
+  {
+   "norma": "iac-201",
+   "secao": "7.1",
+   "titulo": "- A fiscalização e o controle da contribuição devida ao Fundo Aeroviário têm como",
+   "arquivo": "fragmentos/iac/iac-201--sec-7.1.md"
+  },
+  {
+   "norma": "iac-201",
+   "secao": "7.2",
+   "titulo": "- O controle e a fiscalização das contribuições devidas pelas empresas ao Fundo",
+   "arquivo": "fragmentos/iac/iac-201--sec-7.2.md"
+  },
+  {
+   "norma": "iac-201",
+   "secao": "7.3",
+   "titulo": "- A constatação de omissão ou erro no preenchimento da *536 que cause prejuízo",
+   "arquivo": "fragmentos/iac/iac-201--sec-7.3.md"
+  },
+  {
+   "norma": "iac-201",
+   "secao": "8.1",
+   "titulo": "- As empresas contribuintes do Fundo Aeroviário estão obrigadas a remeter,",
+   "arquivo": "fragmentos/iac/iac-201--sec-8.1.md"
+  },
+  {
+   "norma": "iac-201",
+   "secao": "8.2",
+   "titulo": "- Caso haja descumprimento do procedimento previsto no item anterior (8.1), a empresa",
+   "arquivo": "fragmentos/iac/iac-201--sec-8.2.md"
+  },
+  {
+   "norma": "iac-201",
+   "secao": "9.1",
+   "titulo": "- Sempre que for detectado algum tipo de problema com relação ao Fundo Aeroviário,",
+   "arquivo": "fragmentos/iac/iac-201--sec-9.1.md"
+  },
+  {
+   "norma": "iac-201",
+   "secao": "9.2",
+   "titulo": "- Na ocasião da visita, caberá à empresa fiscalizada apresentar os comprovantes dos",
+   "arquivo": "fragmentos/iac/iac-201--sec-9.2.md"
+  },
+  {
+   "norma": "iac-201",
+   "secao": "10.1",
+   "titulo": "- Esta 126(5 entrará em vigor na data da sua efetivação, cabendo à 'LYLVmR\u0003 GH\u0003",
+   "arquivo": "fragmentos/iac/iac-201--sec-10.1.md"
+  },
+  {
    "norma": "iac-2306",
    "secao": "cabecalho",
    "titulo": "",
@@ -28119,6 +29241,366 @@
    "arquivo": "fragmentos/iac/iac-5301--apendice.md"
   },
   {
+   "norma": "resolucao-106",
+   "secao": "(inteira)",
+   "titulo": "",
+   "arquivo": "fragmentos/resolucoes/resolucao-106.md"
+  },
+  {
+   "norma": "resolucao-143",
+   "secao": "(inteira)",
+   "titulo": "",
+   "arquivo": "fragmentos/resolucoes/resolucao-143.md"
+  },
+  {
+   "norma": "resolucao-145",
+   "secao": "(inteira)",
+   "titulo": "",
+   "arquivo": "fragmentos/resolucoes/resolucao-145.md"
+  },
+  {
+   "norma": "resolucao-146",
+   "secao": "(inteira)",
+   "titulo": "",
+   "arquivo": "fragmentos/resolucoes/resolucao-146.md"
+  },
+  {
+   "norma": "resolucao-169",
+   "secao": "(inteira)",
+   "titulo": "",
+   "arquivo": "fragmentos/resolucoes/resolucao-169.md"
+  },
+  {
+   "norma": "resolucao-174",
+   "secao": "(inteira)",
+   "titulo": "",
+   "arquivo": "fragmentos/resolucoes/resolucao-174.md"
+  },
+  {
+   "norma": "resolucao-178",
+   "secao": "(inteira)",
+   "titulo": "",
+   "arquivo": "fragmentos/resolucoes/resolucao-178.md"
+  },
+  {
+   "norma": "resolucao-188",
+   "secao": "(inteira)",
+   "titulo": "",
+   "arquivo": "fragmentos/resolucoes/resolucao-188.md"
+  },
+  {
+   "norma": "resolucao-190",
+   "secao": "(inteira)",
+   "titulo": "",
+   "arquivo": "fragmentos/resolucoes/resolucao-190.md"
+  },
+  {
+   "norma": "resolucao-203",
+   "secao": "(inteira)",
+   "titulo": "",
+   "arquivo": "fragmentos/resolucoes/resolucao-203.md"
+  },
+  {
+   "norma": "resolucao-211",
+   "secao": "(inteira)",
+   "titulo": "",
+   "arquivo": "fragmentos/resolucoes/resolucao-211.md"
+  },
+  {
+   "norma": "resolucao-223",
+   "secao": "(inteira)",
+   "titulo": "",
+   "arquivo": "fragmentos/resolucoes/resolucao-223.md"
+  },
+  {
+   "norma": "resolucao-232",
+   "secao": "(inteira)",
+   "titulo": "",
+   "arquivo": "fragmentos/resolucoes/resolucao-232.md"
+  },
+  {
+   "norma": "resolucao-233",
+   "secao": "(inteira)",
+   "titulo": "",
+   "arquivo": "fragmentos/resolucoes/resolucao-233.md"
+  },
+  {
+   "norma": "resolucao-238",
+   "secao": "(inteira)",
+   "titulo": "",
+   "arquivo": "fragmentos/resolucoes/resolucao-238.md"
+  },
+  {
+   "norma": "resolucao-240",
+   "secao": "(inteira)",
+   "titulo": "",
+   "arquivo": "fragmentos/resolucoes/resolucao-240.md"
+  },
+  {
+   "norma": "resolucao-254",
+   "secao": "(inteira)",
+   "titulo": "",
+   "arquivo": "fragmentos/resolucoes/resolucao-254.md"
+  },
+  {
+   "norma": "resolucao-265",
+   "secao": "(inteira)",
+   "titulo": "",
+   "arquivo": "fragmentos/resolucoes/resolucao-265.md"
+  },
+  {
+   "norma": "resolucao-293",
+   "secao": "(inteira)",
+   "titulo": "",
+   "arquivo": "fragmentos/resolucoes/resolucao-293.md"
+  },
+  {
+   "norma": "resolucao-310",
+   "secao": "(inteira)",
+   "titulo": "",
+   "arquivo": "fragmentos/resolucoes/resolucao-310.md"
+  },
+  {
+   "norma": "resolucao-348",
+   "secao": "(inteira)",
+   "titulo": "",
+   "arquivo": "fragmentos/resolucoes/resolucao-348.md"
+  },
+  {
+   "norma": "resolucao-361",
+   "secao": "(inteira)",
+   "titulo": "",
+   "arquivo": "fragmentos/resolucoes/resolucao-361.md"
+  },
+  {
+   "norma": "resolucao-362",
+   "secao": "(inteira)",
+   "titulo": "",
+   "arquivo": "fragmentos/resolucoes/resolucao-362.md"
+  },
+  {
+   "norma": "resolucao-363",
+   "secao": "(inteira)",
+   "titulo": "",
+   "arquivo": "fragmentos/resolucoes/resolucao-363.md"
+  },
+  {
+   "norma": "resolucao-377",
+   "secao": "(inteira)",
+   "titulo": "",
+   "arquivo": "fragmentos/resolucoes/resolucao-377.md"
+  },
+  {
+   "norma": "resolucao-420",
+   "secao": "(inteira)",
+   "titulo": "",
+   "arquivo": "fragmentos/resolucoes/resolucao-420.md"
+  },
+  {
+   "norma": "resolucao-445",
+   "secao": "(inteira)",
+   "titulo": "",
+   "arquivo": "fragmentos/resolucoes/resolucao-445.md"
+  },
+  {
+   "norma": "resolucao-457",
+   "secao": "(inteira)",
+   "titulo": "",
+   "arquivo": "fragmentos/resolucoes/resolucao-457.md"
+  },
+  {
+   "norma": "resolucao-465",
+   "secao": "(inteira)",
+   "titulo": "",
+   "arquivo": "fragmentos/resolucoes/resolucao-465.md"
+  },
+  {
+   "norma": "resolucao-467",
+   "secao": "(inteira)",
+   "titulo": "",
+   "arquivo": "fragmentos/resolucoes/resolucao-467.md"
+  },
+  {
+   "norma": "resolucao-469",
+   "secao": "(inteira)",
+   "titulo": "",
+   "arquivo": "fragmentos/resolucoes/resolucao-469.md"
+  },
+  {
+   "norma": "resolucao-471",
+   "secao": "(inteira)",
+   "titulo": "",
+   "arquivo": "fragmentos/resolucoes/resolucao-471.md"
+  },
+  {
+   "norma": "resolucao-472",
+   "secao": "(inteira)",
+   "titulo": "",
+   "arquivo": "fragmentos/resolucoes/resolucao-472.md"
+  },
+  {
+   "norma": "resolucao-473",
+   "secao": "(inteira)",
+   "titulo": "",
+   "arquivo": "fragmentos/resolucoes/resolucao-473.md"
+  },
+  {
+   "norma": "resolucao-476",
+   "secao": "(inteira)",
+   "titulo": "",
+   "arquivo": "fragmentos/resolucoes/resolucao-476.md"
+  },
+  {
+   "norma": "resolucao-477",
+   "secao": "(inteira)",
+   "titulo": "",
+   "arquivo": "fragmentos/resolucoes/resolucao-477.md"
+  },
+  {
+   "norma": "resolucao-486",
+   "secao": "(inteira)",
+   "titulo": "",
+   "arquivo": "fragmentos/resolucoes/resolucao-486.md"
+  },
+  {
+   "norma": "resolucao-492",
+   "secao": "(inteira)",
+   "titulo": "",
+   "arquivo": "fragmentos/resolucoes/resolucao-492.md"
+  },
+  {
+   "norma": "resolucao-503",
+   "secao": "(inteira)",
+   "titulo": "",
+   "arquivo": "fragmentos/resolucoes/resolucao-503.md"
+  },
+  {
+   "norma": "resolucao-509",
+   "secao": "(inteira)",
+   "titulo": "",
+   "arquivo": "fragmentos/resolucoes/resolucao-509.md"
+  },
+  {
+   "norma": "resolucao-510",
+   "secao": "(inteira)",
+   "titulo": "",
+   "arquivo": "fragmentos/resolucoes/resolucao-510.md"
+  },
+  {
+   "norma": "resolucao-512",
+   "secao": "(inteira)",
+   "titulo": "",
+   "arquivo": "fragmentos/resolucoes/resolucao-512.md"
+  },
+  {
+   "norma": "resolucao-513",
+   "secao": "(inteira)",
+   "titulo": "",
+   "arquivo": "fragmentos/resolucoes/resolucao-513.md"
+  },
+  {
+   "norma": "resolucao-514",
+   "secao": "(inteira)",
+   "titulo": "",
+   "arquivo": "fragmentos/resolucoes/resolucao-514.md"
+  },
+  {
+   "norma": "resolucao-516",
+   "secao": "(inteira)",
+   "titulo": "",
+   "arquivo": "fragmentos/resolucoes/resolucao-516.md"
+  },
+  {
+   "norma": "resolucao-524",
+   "secao": "(inteira)",
+   "titulo": "",
+   "arquivo": "fragmentos/resolucoes/resolucao-524.md"
+  },
+  {
+   "norma": "resolucao-529",
+   "secao": "(inteira)",
+   "titulo": "",
+   "arquivo": "fragmentos/resolucoes/resolucao-529.md"
+  },
+  {
+   "norma": "resolucao-536",
+   "secao": "(inteira)",
+   "titulo": "",
+   "arquivo": "fragmentos/resolucoes/resolucao-536.md"
+  },
+  {
+   "norma": "resolucao-545",
+   "secao": "(inteira)",
+   "titulo": "",
+   "arquivo": "fragmentos/resolucoes/resolucao-545.md"
+  },
+  {
+   "norma": "resolucao-546",
+   "secao": "(inteira)",
+   "titulo": "",
+   "arquivo": "fragmentos/resolucoes/resolucao-546.md"
+  },
+  {
+   "norma": "resolucao-547",
+   "secao": "(inteira)",
+   "titulo": "",
+   "arquivo": "fragmentos/resolucoes/resolucao-547.md"
+  },
+  {
+   "norma": "resolucao-555",
+   "secao": "(inteira)",
+   "titulo": "",
+   "arquivo": "fragmentos/resolucoes/resolucao-555.md"
+  },
+  {
+   "norma": "resolucao-567",
+   "secao": "(inteira)",
+   "titulo": "",
+   "arquivo": "fragmentos/resolucoes/resolucao-567.md"
+  },
+  {
+   "norma": "resolucao-606",
+   "secao": "(inteira)",
+   "titulo": "",
+   "arquivo": "fragmentos/resolucoes/resolucao-606.md"
+  },
+  {
+   "norma": "resolucao-612",
+   "secao": "(inteira)",
+   "titulo": "",
+   "arquivo": "fragmentos/resolucoes/resolucao-612.md"
+  },
+  {
+   "norma": "resolucao-615",
+   "secao": "(inteira)",
+   "titulo": "",
+   "arquivo": "fragmentos/resolucoes/resolucao-615.md"
+  },
+  {
+   "norma": "resolucao-628",
+   "secao": "(inteira)",
+   "titulo": "",
+   "arquivo": "fragmentos/resolucoes/resolucao-628.md"
+  },
+  {
+   "norma": "resolucao-63",
+   "secao": "(inteira)",
+   "titulo": "",
+   "arquivo": "fragmentos/resolucoes/resolucao-63.md"
+  },
+  {
+   "norma": "resolucao-636",
+   "secao": "(inteira)",
+   "titulo": "",
+   "arquivo": "fragmentos/resolucoes/resolucao-636.md"
+  },
+  {
+   "norma": "resolucao-646",
+   "secao": "(inteira)",
+   "titulo": "",
+   "arquivo": "fragmentos/resolucoes/resolucao-646.md"
+  },
+  {
    "norma": "resolucao-674",
    "secao": "(inteira)",
    "titulo": "",
@@ -28195,6 +29677,12 @@
    "secao": "(inteira)",
    "titulo": "",
    "arquivo": "fragmentos/resolucoes/resolucao-805.md"
+  },
+  {
+   "norma": "resolucao-93",
+   "secao": "(inteira)",
+   "titulo": "",
+   "arquivo": "fragmentos/resolucoes/resolucao-93.md"
   }
  ]
 }
