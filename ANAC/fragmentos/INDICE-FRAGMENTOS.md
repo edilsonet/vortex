@@ -157,6 +157,31 @@
 - `8` — ______ . NSMA 3-7 de 30 Jan. 96 – Responsabilidades dos Operadores de Aeronaves em Caso → fragmentos/iac/iac-200-1001--sec-8.md
 - `9` — CANADÁ. IATA Report on Guidelines for Naming Conventions – Orientação sobre → fragmentos/iac/iac-200-1001--sec-9.md
 
+## iac-201
+- `cabecalho` → fragmentos/iac/iac-201--sec-cabecalho.md
+- `2` — - Guia de Recolhimento da Previdência Social (*536); e → fragmentos/iac/iac-201--sec-2.md
+- `3` — - Comprovante de Visita. → fragmentos/iac/iac-201--sec-3.md
+- `3.1` — - São contribuintes do Fundo Aeroviário todas as empresas privadas, públicas, de → fragmentos/iac/iac-201--sec-3.1.md
+- `4.1` — - As entidades, cujas atividades estão enquadradas no item III, são obrigadas a recolher → fragmentos/iac/iac-201--sec-4.1.md
+- `4.2` — - O termo taxa também se aplica aos percentuais que fixam as contribuições devidas → fragmentos/iac/iac-201--sec-4.2.md
+- `4.3` — - As taxas atualmente em vigor são as constantes do Anexo III (Contribuições de → fragmentos/iac/iac-201--sec-4.3.md
+- `4.4` — - Cada empresa, dependendo da natureza de sua atividade, é vinculada a alguns → fragmentos/iac/iac-201--sec-4.4.md
+- `5.1` — - As contribuições devidas por uma empresa são efetivadas mediante o preenchimento → fragmentos/iac/iac-201--sec-5.1.md
+- `5.2` — - O correto preenchimento da *536 é de inteira responsabilidade do contribuinte, ainda → fragmentos/iac/iac-201--sec-5.2.md
+- `5.3` — - Dependendo das suas atividades, uma empresa preencherá uma ou várias *536 por → fragmentos/iac/iac-201--sec-5.3.md
+- `5.4` — - Os prazos para o recolhimento das contribuições são estabelecidos pelo INSS, → fragmentos/iac/iac-201--sec-5.4.md
+- `6.1` — - A *536 é utilizada obrigatoriamente pela empresa para o recolhimento das → fragmentos/iac/iac-201--sec-6.1.md
+- `6.2` — - Para quitação de débito incluído em parcelamento ou notificação, o contribuinte → fragmentos/iac/iac-201--sec-6.2.md
+- `6.3` — - Sempre que houver parcelamento de débitos junto ao INSS, caberá à empresa enviar → fragmentos/iac/iac-201--sec-6.3.md
+- `7.1` — - A fiscalização e o controle da contribuição devida ao Fundo Aeroviário têm como → fragmentos/iac/iac-201--sec-7.1.md
+- `7.2` — - O controle e a fiscalização das contribuições devidas pelas empresas ao Fundo → fragmentos/iac/iac-201--sec-7.2.md
+- `7.3` — - A constatação de omissão ou erro no preenchimento da *536 que cause prejuízo → fragmentos/iac/iac-201--sec-7.3.md
+- `8.1` — - As empresas contribuintes do Fundo Aeroviário estão obrigadas a remeter, → fragmentos/iac/iac-201--sec-8.1.md
+- `8.2` — - Caso haja descumprimento do procedimento previsto no item anterior (8.1), a empresa → fragmentos/iac/iac-201--sec-8.2.md
+- `9.1` — - Sempre que for detectado algum tipo de problema com relação ao Fundo Aeroviário, → fragmentos/iac/iac-201--sec-9.1.md
+- `9.2` — - Na ocasião da visita, caberá à empresa fiscalizada apresentar os comprovantes dos → fragmentos/iac/iac-201--sec-9.2.md
+- `10.1` — - Esta 126(5 entrará em vigor na data da sua efetivação, cabendo à 'LYLVmR GH → fragmentos/iac/iac-201--sec-10.1.md
+
 ## iac-2306
 - `cabecalho` → fragmentos/iac/iac-2306--sec-cabecalho.md
 - `01` — /    /   .../   /     /   /           28       /    /   .../   /     /   / → fragmentos/iac/iac-2306--sec-01.md
@@ -1140,6 +1165,10 @@
 - `14` — 1-1.        En Route Obstacle Clearance Areas .......................................................................... → fragmentos/is/is-121-018--sec-14.md
 - `15` — 1-1.       Purpose ..................................................................................................... → fragmentos/is/is-121-018--sec-15.md
 - `16` — 1-1.      Development Concept .......................................................................................... → fragmentos/is/is-121-018--sec-16.md
+
+## is-121-020
+- `cabecalho` → fragmentos/is/is-121-020--sec-cabecalho.md
+- `1` — significant overshoot). → fragmentos/is/is-121-020--sec-1.md
 
 ## is-121-022
 - `cabecalho` → fragmentos/is/is-121-022--sec-cabecalho.md
@@ -2876,6 +2905,29 @@
 - `6` — APÊNDICE: → fragmentos/is/is-43-9-003--sec-6.md
 - `7.1` — Os casos omissos serão dirimidos pela ANAC → fragmentos/is/is-43-9-003--sec-7.1.md
 
+## is-43-9-004
+- `cabecalho` → fragmentos/is/is-43-9-004--sec-cabecalho.md
+- `1` — OBJETIVO → fragmentos/is/is-43-9-004--sec-1.md
+- `3.1` — A Resolução ANAC n° 458, de 20 de dezembro de 2017, doravante chamada de Resolução → fragmentos/is/is-43-9-004--sec-3.1.md
+- `3.2` — Quando houver menção nesse documento à Resolução 458, deve ser entendido como a → fragmentos/is/is-43-9-004--sec-3.2.md
+- `3.3` — A Resolução nº 511, de 11 de abril de 2019, altera a Resolução 458 possibilitando o uso do → fragmentos/is/is-43-9-004--sec-3.3.md
+- `3.4` — O RBAC 43 versa sobre o conteúdo, forma e disposição de registros de manutenção, → fragmentos/is/is-43-9-004--sec-3.4.md
+- `3.5` — Faz-se necessário esclarecer que todos os requisitos referentes aos registros de manutenção → fragmentos/is/is-43-9-004--sec-3.5.md
+- `3.6` — Apesar de não se constituir uma lista exaustiva, em função do disposto no subitem 3.1, os → fragmentos/is/is-43-9-004--sec-3.6.md
+- `4.1` — Adicionalmente às definições constantes no Regulamento Brasileiro de Aviação Civil - → fragmentos/is/is-43-9-004--sec-4.1.md
+- `4.2` — dados significativos: informações de qualquer natureza requeridas pela legislação e → fragmentos/is/is-43-9-004--sec-4.2.md
+- `4.3` — documento: dados significativos e os meios físicos ou digitais nos quais estão contidos → fragmentos/is/is-43-9-004--sec-4.3.md
+- `4.4` — registro: documento preenchido e emitido por um ente regulado, que obrigatoriamente → fragmentos/is/is-43-9-004--sec-4.4.md
+- `4.5` — Sistema de Documentos e Registros de Manutenção Eletrônicos (SDRMe): conjunto → fragmentos/is/is-43-9-004--sec-4.5.md
+- `5.1` — Disposições Gerais → fragmentos/is/is-43-9-004--sec-5.1.md
+- `5.2` — Características gerais do SDRMe → fragmentos/is/is-43-9-004--sec-5.2.md
+- `5.3` — Implementação de SDRMe → fragmentos/is/is-43-9-004--sec-5.3.md
+- `5.4` — Procedimentos para uso do SDRMe para registros eletrônicos → fragmentos/is/is-43-9-004--sec-5.4.md
+- `5.5` — Procedimentos para uso do SDRMe para documentos eletrônicos → fragmentos/is/is-43-9-004--sec-5.5.md
+- `5.6` — Processo de autorização para uso do SDRMe → fragmentos/is/is-43-9-004--sec-5.6.md
+- `5.7` — Descontinuação de uso do SDRMe → fragmentos/is/is-43-9-004--sec-5.7.md
+- `6` — DISPOSIÇÕES FINAIS → fragmentos/is/is-43-9-004--sec-6.md
+
 ## is-43.1-001
 - `cabecalho` → fragmentos/is/is-43.1-001--sec-cabecalho.md
 - `1.1` — 1    Estabelecer orientações quanto a solicitação, critérios e meios de avaliação para a concessão → fragmentos/is/is-43.1-001--sec-1.1.md
@@ -3198,6 +3250,127 @@
 - `12.5` — Os casos omissos serão dirimidos pela Superintendência de Padrões Operacionais. → fragmentos/is/is-91-002--sec-12.5.md
 - `13` — Foi percebida qualquer interferência com os sistemas de comunicação ou navegação da → fragmentos/is/is-91-002--sec-13.md
 
+## is-91-003b
+- `cabecalho` → fragmentos/is/is-91-003b--sec-cabecalho.md
+- `1.1` — A presente Instrução Suplementar apresenta: → fragmentos/is/is-91-003b--sec-1.1.md
+- `2.1` — Esta IS se aplica a operadores regidos pelos RBAC nº 121 e RBAC nº 135. Os procedimentos de → fragmentos/is/is-91-003b--sec-2.1.md
+- `2.2` — Apenas os operadores autorizados para operações de aproximação ILS CAT II, utilizando → fragmentos/is/is-91-003b--sec-2.2.md
+- `4.1` — A Resolução nº 30, de 21 de maio de 2008, institui em seu art. 14, a Instrução Suplementar – IS, → fragmentos/is/is-91-003b--sec-4.1.md
+- `4.2` — O administrado que pretenda, para qualquer finalidade, demonstrar o cumprimento de requisito → fragmentos/is/is-91-003b--sec-4.2.md
+- `4.3` — O meio ou procedimento alternativo mencionado na alínea 4.2(b) desta IS deve garantir nível de → fragmentos/is/is-91-003b--sec-4.3.md
+- `4.4` — A IS não pode criar novos requisitos ou contrariar requisitos estabelecidos em RBAC ou outro ato → fragmentos/is/is-91-003b--sec-4.4.md
+- `5.1` — Esta Instrução Suplementar utiliza alguns termos e definições na língua inglesa por entender que → fragmentos/is/is-91-003b--sec-5.1.md
+- `5.2` — No escopo desta IS são válidas todas as definições contidas no RBAC nº 01 e RBAC nº 91. → fragmentos/is/is-91-003b--sec-5.2.md
+- `5.3` — Aproximação estabilizada. Aproximação efetuada de maneira controlada e apropriada em → fragmentos/is/is-91-003b--sec-5.3.md
+- `5.4` — Certificação Suplementar de Tipo. Constitui uma aprovação de grande modificação introduzida → fragmentos/is/is-91-003b--sec-5.4.md
+- `5.5` — Combined Vision System. Sistema que disponibiliza simultaneamente imagens oriundas de um → fragmentos/is/is-91-003b--sec-5.5.md
+- `5.6` — Decolagem com Baixa Visibilidade. Termo utilizado com relação a operações de decolagem em → fragmentos/is/is-91-003b--sec-5.6.md
+- `5.7` — Enhanced Flight Vision System. É um EVS associado a um HUD. → fragmentos/is/is-91-003b--sec-5.7.md
+- `5.8` — Enhanced Vision System. Sistema que disponibiliza eletronicamente imagens em tempo real do → fragmentos/is/is-91-003b--sec-5.8.md
+- `5.9` — Flight Path Angle. Trajetória vertical na condição presente de potência, configuração e posição → fragmentos/is/is-91-003b--sec-5.9.md
+- `5.10` — Flight Path Vector. Consiste num ícone apresentado no PFD ou HUD que indica a trajetória da → fragmentos/is/is-91-003b--sec-5.10.md
+- `5.11` — Head-down Display. Sistema que disponibiliza informações de voo, de desempenho ou de → fragmentos/is/is-91-003b--sec-5.11.md
+- `5.12` — Head Up Guidance System. Um sistema óptico e eletrônico que gera e projeta informações de → fragmentos/is/is-91-003b--sec-5.12.md
+- `5.13` — Head-up Display. Sistema que disponibiliza informações de voo no campo de visão externo do → fragmentos/is/is-91-003b--sec-5.13.md
+- `5.14` — Low Visibility Procedures. Conjunto de procedimentos específicos aplicados em um aeródromo → fragmentos/is/is-91-003b--sec-5.14.md
+- `5.15` — Low Visibility Take-Off. Decolagem com visibilidade reduzida. → fragmentos/is/is-91-003b--sec-5.15.md
+- `5.16` — Synthetic Vision System. Sistema que disponibiliza aos tripulantes imagens externas geradas → fragmentos/is/is-91-003b--sec-5.16.md
+- `5.17` — Visibilidade Intensificada. Distância medida a frente da aeronave, como vista do posto de → fragmentos/is/is-91-003b--sec-5.17.md
+- `6.1` — Permanecem válidas no presente documento as abreviaturas detalhadas no RBAC nº 01, ou no → fragmentos/is/is-91-003b--sec-6.1.md
+- `6.2` — Esta IS utiliza algumas abreviaturas de termos na língua inglesa por entender que os mesmos já → fragmentos/is/is-91-003b--sec-6.2.md
+- `6.3` — ACAS – Air Collision Avoidance System; → fragmentos/is/is-91-003b--sec-6.3.md
+- `6.4` — ALSF-1 – Approach Lighting System with Sequenced Flashing Lights configuration 1; → fragmentos/is/is-91-003b--sec-6.4.md
+- `6.5` — ALSF-2 – Approach Lighting System with Sequenced Flashing Lights configuration 2; → fragmentos/is/is-91-003b--sec-6.5.md
+- `6.8` — CST – Certificado Suplementar de Tipo; → fragmentos/is/is-91-003b--sec-6.8.md
+- `6.13` — EFVS – Enhanced Flight Vision System; → fragmentos/is/is-91-003b--sec-6.13.md
+- `6.17` — FSTD – Flight Simulation Training Device; → fragmentos/is/is-91-003b--sec-6.17.md
+- `6.18` — GPWS – Ground Proximity Warning System; → fragmentos/is/is-91-003b--sec-6.18.md
+- `6.25` — MALSR – Medium-intensity Approach Lighting System with Runway Alignment Indicator → fragmentos/is/is-91-003b--sec-6.25.md
+- `6.29` — RNP – Required Navigation Performance; → fragmentos/is/is-91-003b--sec-6.29.md
+- `6.31` — SOCMS – Sistema de Orientação e Controle da Movimentação no Solo; → fragmentos/is/is-91-003b--sec-6.31.md
+- `6.32` — SSALR – Simplified Short Approach Lighting System with Runway Alignment Indicator Lights; → fragmentos/is/is-91-003b--sec-6.32.md
+- `6.34` — TDA – Type Design Approval; → fragmentos/is/is-91-003b--sec-6.34.md
+- `7.1` — Os mínimos meteorológicos para uma particular operação devem assegurar que a combinação de → fragmentos/is/is-91-003b--sec-7.1.md
+- `7.2` — Na definição dos mínimos meteorológicos para determinada operação se faz necessário avaliar → fragmentos/is/is-91-003b--sec-7.2.md
+- `7.3` — O Head Up Display consiste de um sistema de aquisição de dados através de radar, rádio → fragmentos/is/is-91-003b--sec-7.3.md
+- `7.4` — Quando o HUD apresenta os dados primários de voo e de navegação que se sobrepõem à cena → fragmentos/is/is-91-003b--sec-7.4.md
+- `7.5` — A utilização do HGS pode melhorar a consciência situacional pela combinação de informação de → fragmentos/is/is-91-003b--sec-7.5.md
+- `7.6` — O HGS pode ser utilizado com os seguintes propósitos: → fragmentos/is/is-91-003b--sec-7.6.md
+- `7.7` — Quando a utilização da informação apresentada pelo HGS for utilizada como display primário de → fragmentos/is/is-91-003b--sec-7.7.md
+- `7.8` — O operador deve estabelecer políticas e procedimentos que devem ser submetidos à aprovação da → fragmentos/is/is-91-003b--sec-7.8.md
+- `7.9` — Não é escopo desta IS abordar aspectos de aeronavegabilidade, uma vez que os equipamentos → fragmentos/is/is-91-003b--sec-7.9.md
+- `8.1` — Esta seção estabelece a metodologia aplicada ao processo de aprovação adotado pela → fragmentos/is/is-91-003b--sec-8.1.md
+- `8.2` — Após o término do processo, a autorização para conduzir operações CAT I AR e LVTO devem ser → fragmentos/is/is-91-003b--sec-8.2.md
+- `8.3` — A autorização expressa deve ser restrita ao menor valor de teto ou visibilidade na qual o operador → fragmentos/is/is-91-003b--sec-8.3.md
+- `9.1` — O Anexo 6 à Convenção de Aviação Civil Internacional, ICAO, prevê que o Estado do operador → fragmentos/is/is-91-003b--sec-9.1.md
+- `9.2` — Considerando que a Circular de Informação Aeronáutica n° 53/18, publicada em novembro de → fragmentos/is/is-91-003b--sec-9.2.md
+- `9.3` — Os procedimentos ILS CAT I AR descritos nessa IS, destinados a operadores especificamente → fragmentos/is/is-91-003b--sec-9.3.md
+- `9.4` — As LVTO, abordadas nesta IS, também destinada a operadores especificamente aprovados → fragmentos/is/is-91-003b--sec-9.4.md
+- `9.5` — Em resumo, estes são os mínimos meteorológicos possíveis de serem alcançados quando → fragmentos/is/is-91-003b--sec-9.5.md
+- `10.1` — Nenhum piloto operando uma aeronave, em uma aproximação ILS CAT I AR, que prevê e → fragmentos/is/is-91-003b--sec-10.1.md
+- `10.2` — O piloto operando uma aeronave deve executar imediatamente o apropriado procedimento de → fragmentos/is/is-91-003b--sec-10.2.md
+- `11.1` — Não é escopo desta IS o detalhamento dos requisitos de aeronavegabilidade que os sistemas → fragmentos/is/is-91-003b--sec-11.1.md
+- `11.2` — Para que um HGS seja elegível a aproximações ILS CAT I AR e decolagens LVTO → fragmentos/is/is-91-003b--sec-11.2.md
+- `12.1` — A fim de obtenção de créditos meteorológicos o HGS deve necessariamente disponibilizar a → fragmentos/is/is-91-003b--sec-12.1.md
+- `12.2` — Além do item 12.1, o HGS deve disponibilizar, no mínimo, as seguintes informações: → fragmentos/is/is-91-003b--sec-12.2.md
+- `12.3` — No emprego do EFVS as referências as imagens devem ser disponibilizadas de forma alinhada e → fragmentos/is/is-91-003b--sec-12.3.md
+- `13.1` — As imagens em tempo real e as demais informações apresentadas através do EFVS devem ser → fragmentos/is/is-91-003b--sec-13.1.md
+- `13.2` — Deve ser garantida a ergometria do sistema, de modo a garantir que as informações estejam → fragmentos/is/is-91-003b--sec-13.2.md
+- `14.1` — A definição de EFVS não deve ser confundida com a definição de EVS. Um EVS é um meio → fragmentos/is/is-91-003b--sec-14.1.md
+- `14.2` — A utilização do EVS pode melhorar a consciência situacional dos tripulantes em determinadas → fragmentos/is/is-91-003b--sec-14.2.md
+- `14.3` — Durante algumas condições de visibilidade reduzida, um EFVS pode disponibilizar imagens que → fragmentos/is/is-91-003b--sec-14.3.md
+- `14.4` — Só existe a previsão de operar abaixo da DA ou DH durante uma aproximação de precisão → fragmentos/is/is-91-003b--sec-14.4.md
+- `14.5` — As cores das luzes disponibilizadas através do EFVS podem não ser fielmente representadas no → fragmentos/is/is-91-003b--sec-14.5.md
+- `14.6` — Pela razão exposta no item anterior as luzes indicadoras de trajetória vertical, PAPI, não devem → fragmentos/is/is-91-003b--sec-14.6.md
+- `14.7` — Esta IS não determina que o EFVS seja desligado ou seu display seja recolhido para a → fragmentos/is/is-91-003b--sec-14.7.md
+- `14.8` — Lâmpadas com tecnologia LED podem não ser visíveis aos equipamentos que utilizam → fragmentos/is/is-91-003b--sec-14.8.md
+- `15.1` — Este capítulo trata de operações de aproximações ILS com alcance visual da pista, RVR, mínimo → fragmentos/is/is-91-003b--sec-15.1.md
+- `15.2` — Durante a execução de aproximações ILS CAT I AR os órgão ATC e/ou o administrador → fragmentos/is/is-91-003b--sec-15.2.md
+- `15.3` — O conceito de aproximação estabilizada é amplamente utilizado pela indústria com o propósito → fragmentos/is/is-91-003b--sec-15.3.md
+- `15.4` — Conforme previsão da AIC N° 53-18, publicada pelo DECEA, para serem elegíveis para → fragmentos/is/is-91-003b--sec-15.4.md
+- `15.5` — Nos procedimentos ILS CAT I AR, a inclinação da rampa de descida normalmente será de 3 → fragmentos/is/is-91-003b--sec-15.5.md
+- `15.6` — Somente aeronaves operadas por dois pilotos são autorizadas a utilizar os mínimos → fragmentos/is/is-91-003b--sec-15.6.md
+- `15.7` — A pista em uso deve ter distância de pouso declarada superior a 1500 metros. → fragmentos/is/is-91-003b--sec-15.7.md
+- `15.8` — Apenas os operadores certificados para as aproximações ILS CAT II utilizando aeronaves → fragmentos/is/is-91-003b--sec-15.8.md
+- `15.9` — A pista deve disponibilizar os seguintes auxílios luminosos e equipamentos auxiliares: → fragmentos/is/is-91-003b--sec-15.9.md
+- `15.10` — Na tabela abaixo estão discriminadas as restrições operacionais quanto à funcionalidade dos → fragmentos/is/is-91-003b--sec-15.10.md
+- `15.11` — As restrições operacionais aplicáveis aos procedimentos de aproximação ILS CAT I, descritas → fragmentos/is/is-91-003b--sec-15.11.md
+- `16.1` — Durante as operações de decolagem, as referências visuais devem ser suficientes para garantir → fragmentos/is/is-91-003b--sec-16.1.md
+- `16.2` — As operações LVTO referidas nesta IS são balizadas nas indicações do localizador do sistema → fragmentos/is/is-91-003b--sec-16.2.md
+- `16.3` — Os mínimos de decolagem são expressos em termos de visibilidade e alcance visual na pista, → fragmentos/is/is-91-003b--sec-16.3.md
+- `16.4` — Somente aeronaves operadas por dois pilotos são autorizadas a utilizar os mínimos → fragmentos/is/is-91-003b--sec-16.4.md
+- `16.5` — Sistemas embarcados normalmente utilizados nas decolagens, sem os créditos meteorológicos, → fragmentos/is/is-91-003b--sec-16.5.md
+- `16.6` — Quando as operações LVTO estiverem associadas a um procedimento RNP, as disposições → fragmentos/is/is-91-003b--sec-16.6.md
+- `16.7` — Para as operações com RVR abaixo de 400 metros, o aeródromo deverá possuir procedimentos → fragmentos/is/is-91-003b--sec-16.7.md
+- `16.8` — O operador deve certificar-se que as informações relevantes às operações devem ser de → fragmentos/is/is-91-003b--sec-16.8.md
+- `16.9` — Em conformidade com o RBAC 154, uma barra de parada deve ser instalada em todas as → fragmentos/is/is-91-003b--sec-16.9.md
+- `16.10` — Os aeródromos em que o Sistema de Orientação e Controle da Movimentação no Solo, → fragmentos/is/is-91-003b--sec-16.10.md
+- `16.11` — O detentor de aprovação LVTO com o emprego do HGS está autorizado a conduzir operações → fragmentos/is/is-91-003b--sec-16.11.md
+- `16.12` — Na tabela abaixo estão discriminadas as restrições operacionais quanto à funcionalidade dos → fragmentos/is/is-91-003b--sec-16.12.md
+- `16.13` — Na tabela a seguir estão discriminados os requisitos mínimos de pista associados aos valores → fragmentos/is/is-91-003b--sec-16.13.md
+- `17.1` — É mandatório treinamento específico para operadores realizarem procedimentos de aproximação → fragmentos/is/is-91-003b--sec-17.1.md
+- `17.2` — O treinamento mínimo recomendado para pilotos envolvidos nas operações com HGS deve → fragmentos/is/is-91-003b--sec-17.2.md
+- `17.3` — Aos pilotos envolvidos nas operações que utilizam o EFVS o treinamento recomendado no item → fragmentos/is/is-91-003b--sec-17.3.md
+- `17.4` — O treinamento periódico requerido para a manutenção e renovação das habilitações da tripulação → fragmentos/is/is-91-003b--sec-17.4.md
+- `17.5` — Os pilotos devem ser treinados nos seus respectivos postos de pilotagem utilizando os mínimos → fragmentos/is/is-91-003b--sec-17.5.md
+- `17.6` — Durante os exames iniciais ou periódicos os pilotos devem ser avaliados nas condições → fragmentos/is/is-91-003b--sec-17.6.md
+- `17.7` — Operadores regidos pelo RBAC 121 e 135 devem incluir nos currículos de solo dos → fragmentos/is/is-91-003b--sec-17.7.md
+- `17.8` — Sempre que um operador solicitar autorização para conduzir operações de decolagem com → fragmentos/is/is-91-003b--sec-17.8.md
+- `17.9` — O treinamento das tripulações deve garantir o conhecimento dos equipamentos utilizados, os → fragmentos/is/is-91-003b--sec-17.9.md
+- `17.10` — Os operadores aéreos devem incluir treinamentos de diferenças para seus tripulantes → fragmentos/is/is-91-003b--sec-17.10.md
+- `18.1` — O requerente deve solicitar a revisão das Especificações Operativas ou a emissão da LOA. Os → fragmentos/is/is-91-003b--sec-18.1.md
+- `19.1` — Compete ao piloto em comando: → fragmentos/is/is-91-003b--sec-19.1.md
+- `20.1` — Não existem mínimos meteorológicos estabelecidos para o táxi. O piloto em comando é o → fragmentos/is/is-91-003b--sec-20.1.md
+- `20.2` — Procedimentos específicos de táxi em condições de baixa visibilidade devem ser adotados pelo → fragmentos/is/is-91-003b--sec-20.2.md
+- `21.1` — É requerido o envolvimento do administrador do aeroporto por meio de uma carta de acordo → fragmentos/is/is-91-003b--sec-21.1.md
+- `21.2` — Para operações de decolagem com RVR abaixo de 400 m, o aeródromo deve possuir → fragmentos/is/is-91-003b--sec-21.2.md
+- `21.3` — Os aeródromos em que o SOCMS (Sistema de Orientação e Controle da Movimentação no → fragmentos/is/is-91-003b--sec-21.3.md
+- `21.4` — Não é requerido do operador aéreo a apresentação ou o conhecimento da Carta de Acordo → fragmentos/is/is-91-003b--sec-21.4.md
+- `22.1` — Após a obtenção da aprovação operacional, o operador deve levar em consideração diversos → fragmentos/is/is-91-003b--sec-22.1.md
+- `22.2` — Faz parte ainda do processo de qualificação do operador um período inicial onde pode ser → fragmentos/is/is-91-003b--sec-22.2.md
+- `23.1` — A prerrogativa do órgão regulador conceder autorização específica para operações com mínimos → fragmentos/is/is-91-003b--sec-23.1.md
+- `23.2` — A autorização nas Especificações Operativas ou na LOA do operador deve conter expressamente → fragmentos/is/is-91-003b--sec-23.2.md
+
 ## is-91-004
 - `cabecalho` → fragmentos/is/is-91-004--sec-cabecalho.md
 - `1` — OBJETIVO → fragmentos/is/is-91-004--sec-1.md
@@ -3240,6 +3413,32 @@
 - `6` — OPERATIONAL PROCEDURES AND FLIGHT TECHNIQUES. → fragmentos/is/is-91-011--sec-6.md
 - `7` — FLIGHTCREW TRAINING. → fragmentos/is/is-91-011--sec-7.md
 - `8` — AC FEEDBACK FORM. For your convenience, the AC Feedback Form is the last page of → fragmentos/is/is-91-011--sec-8.md
+
+## is-91-012-1
+- `1.1` — Apresentar uma metodologia que proporcione a elaboração de Lista de Equipamentos Mínimos (MEL) aceitável pela Anac, capa → fragmentos/is/is-91-012-1--sec-1.1.md
+- `1.2` — Apresentar os procedimentos requeridos no processo de aprovação e revisão de MEL, desde sua submissão à análise da Anac  → fragmentos/is/is-91-012-1--sec-1.2.md
+- `1.3` — Apresentar os procedimentos para utilização em serviço da MEL aprovada. → fragmentos/is/is-91-012-1--sec-1.3.md
+- `1.4` — Apresentar os procedimentos para operação com equipamentos e instrumentos inoperantes, sem MEL aprovada, conforme o pará → fragmentos/is/is-91-012-1--sec-1.4.md
+- `2.1` — Esta IS revoga a IS nº 91-012, Revisão B. → fragmentos/is/is-91-012-1--sec-2.1.md
+- `3.1` — A Resolução nº 30, de 21 de maio de 2008, institui em seu art. 14, a Instrução Suplementar – IS, norma suplementar de ca → fragmentos/is/is-91-012-1--sec-3.1.md
+- `3.2` — O administrado que pretenda, para qualquer finalidade, demonstrar o cumprimento de requisito previsto em RBAC, poderá: → fragmentos/is/is-91-012-1--sec-3.2.md
+- `3.3` — O meio ou procedimento alternativo mencionado no parágrafo 3.2(b) desta IS deve garantir nível de segurança igual ou sup → fragmentos/is/is-91-012-1--sec-3.3.md
+- `3.4` — A IS não pode criar novos requisitos ou contrariar requisitos estabelecidos em RBAC ou outro ato normativo. → fragmentos/is/is-91-012-1--sec-3.4.md
+- `3.5` — Esta IS é fundamentada e objetiva oferecer método de cumprimento às seções 91.213 e 91.1115 do RBAC nº 91, 121.628 do RB → fragmentos/is/is-91-012-1--sec-3.5.md
+- `4.1` — Para os efeitos desta IS, são válidas as definições listadas na seção 01.1 do RBAC nº 01, na IS nº 118-001 e as seguinte → fragmentos/is/is-91-012-1--sec-4.1.md
+- `4.2` — Lista de abreviaturas: → fragmentos/is/is-91-012-1--sec-4.2.md
+- `5.1` — Elaboração da MEL → fragmentos/is/is-91-012-1--sec-5.1.md
+- `5.2` — Processos de aprovação, revisão e revogação de aprovação da MEL → fragmentos/is/is-91-012-1--sec-5.2.md
+- `5.3` — Utilização da MEL em serviço → fragmentos/is/is-91-012-1--sec-5.3.md
+- `5.4` — Operação com equipamentos e instrumentos inoperantes, sem MEL aprovada → fragmentos/is/is-91-012-1--sec-5.4.md
+- `7.1` — Os casos omissos serão dirimidos pela Anac. → fragmentos/is/is-91-012-1--sec-7.1.md
+- `7.2` — O operador pode utilizar uma MEL aprovada com base na IAC 3507-121/135 – 1298. Essa MEL deve ser revisada caso: → fragmentos/is/is-91-012-1--sec-7.2.md
+
+## is-91-014
+- `cabecalho` → fragmentos/is/is-91-014--sec-cabecalho.md
+- `2` — AY1-2Z68.:2[O2E212TJ → fragmentos/is/is-91-014--sec-2.md
+- `3` — 71A< → fragmentos/is/is-91-014--sec-3.md
+- `4` — C3.90?@31/3713F75J286371;.-7-45-71407 → fragmentos/is/is-91-014--sec-4.md
 
 ## is-91-21-001
 - `cabecalho` → fragmentos/is/is-91-21-001--sec-cabecalho.md
@@ -4993,6 +5192,186 @@
 - `91.211` — Oxigênio suplementar → fragmentos/rbac/rbac-91--sec-91.211.md
 - `91.213` — Equipamentos e instrumentos inoperantes → fragmentos/rbac/rbac-91--sec-91.213.md
 
+## resolucao-106
+- `(inteira)` → fragmentos/resolucoes/resolucao-106.md
+
+## resolucao-143
+- `(inteira)` → fragmentos/resolucoes/resolucao-143.md
+
+## resolucao-145
+- `(inteira)` → fragmentos/resolucoes/resolucao-145.md
+
+## resolucao-146
+- `(inteira)` → fragmentos/resolucoes/resolucao-146.md
+
+## resolucao-169
+- `(inteira)` → fragmentos/resolucoes/resolucao-169.md
+
+## resolucao-174
+- `(inteira)` → fragmentos/resolucoes/resolucao-174.md
+
+## resolucao-178
+- `(inteira)` → fragmentos/resolucoes/resolucao-178.md
+
+## resolucao-188
+- `(inteira)` → fragmentos/resolucoes/resolucao-188.md
+
+## resolucao-190
+- `(inteira)` → fragmentos/resolucoes/resolucao-190.md
+
+## resolucao-203
+- `(inteira)` → fragmentos/resolucoes/resolucao-203.md
+
+## resolucao-211
+- `(inteira)` → fragmentos/resolucoes/resolucao-211.md
+
+## resolucao-223
+- `(inteira)` → fragmentos/resolucoes/resolucao-223.md
+
+## resolucao-232
+- `(inteira)` → fragmentos/resolucoes/resolucao-232.md
+
+## resolucao-233
+- `(inteira)` → fragmentos/resolucoes/resolucao-233.md
+
+## resolucao-238
+- `(inteira)` → fragmentos/resolucoes/resolucao-238.md
+
+## resolucao-240
+- `(inteira)` → fragmentos/resolucoes/resolucao-240.md
+
+## resolucao-254
+- `(inteira)` → fragmentos/resolucoes/resolucao-254.md
+
+## resolucao-265
+- `(inteira)` → fragmentos/resolucoes/resolucao-265.md
+
+## resolucao-293
+- `(inteira)` → fragmentos/resolucoes/resolucao-293.md
+
+## resolucao-310
+- `(inteira)` → fragmentos/resolucoes/resolucao-310.md
+
+## resolucao-348
+- `(inteira)` → fragmentos/resolucoes/resolucao-348.md
+
+## resolucao-361
+- `(inteira)` → fragmentos/resolucoes/resolucao-361.md
+
+## resolucao-362
+- `(inteira)` → fragmentos/resolucoes/resolucao-362.md
+
+## resolucao-363
+- `(inteira)` → fragmentos/resolucoes/resolucao-363.md
+
+## resolucao-377
+- `(inteira)` → fragmentos/resolucoes/resolucao-377.md
+
+## resolucao-420
+- `(inteira)` → fragmentos/resolucoes/resolucao-420.md
+
+## resolucao-445
+- `(inteira)` → fragmentos/resolucoes/resolucao-445.md
+
+## resolucao-457
+- `(inteira)` → fragmentos/resolucoes/resolucao-457.md
+
+## resolucao-465
+- `(inteira)` → fragmentos/resolucoes/resolucao-465.md
+
+## resolucao-467
+- `(inteira)` → fragmentos/resolucoes/resolucao-467.md
+
+## resolucao-469
+- `(inteira)` → fragmentos/resolucoes/resolucao-469.md
+
+## resolucao-471
+- `(inteira)` → fragmentos/resolucoes/resolucao-471.md
+
+## resolucao-472
+- `(inteira)` → fragmentos/resolucoes/resolucao-472.md
+
+## resolucao-473
+- `(inteira)` → fragmentos/resolucoes/resolucao-473.md
+
+## resolucao-476
+- `(inteira)` → fragmentos/resolucoes/resolucao-476.md
+
+## resolucao-477
+- `(inteira)` → fragmentos/resolucoes/resolucao-477.md
+
+## resolucao-486
+- `(inteira)` → fragmentos/resolucoes/resolucao-486.md
+
+## resolucao-492
+- `(inteira)` → fragmentos/resolucoes/resolucao-492.md
+
+## resolucao-503
+- `(inteira)` → fragmentos/resolucoes/resolucao-503.md
+
+## resolucao-509
+- `(inteira)` → fragmentos/resolucoes/resolucao-509.md
+
+## resolucao-510
+- `(inteira)` → fragmentos/resolucoes/resolucao-510.md
+
+## resolucao-512
+- `(inteira)` → fragmentos/resolucoes/resolucao-512.md
+
+## resolucao-513
+- `(inteira)` → fragmentos/resolucoes/resolucao-513.md
+
+## resolucao-514
+- `(inteira)` → fragmentos/resolucoes/resolucao-514.md
+
+## resolucao-516
+- `(inteira)` → fragmentos/resolucoes/resolucao-516.md
+
+## resolucao-524
+- `(inteira)` → fragmentos/resolucoes/resolucao-524.md
+
+## resolucao-529
+- `(inteira)` → fragmentos/resolucoes/resolucao-529.md
+
+## resolucao-536
+- `(inteira)` → fragmentos/resolucoes/resolucao-536.md
+
+## resolucao-545
+- `(inteira)` → fragmentos/resolucoes/resolucao-545.md
+
+## resolucao-546
+- `(inteira)` → fragmentos/resolucoes/resolucao-546.md
+
+## resolucao-547
+- `(inteira)` → fragmentos/resolucoes/resolucao-547.md
+
+## resolucao-555
+- `(inteira)` → fragmentos/resolucoes/resolucao-555.md
+
+## resolucao-567
+- `(inteira)` → fragmentos/resolucoes/resolucao-567.md
+
+## resolucao-606
+- `(inteira)` → fragmentos/resolucoes/resolucao-606.md
+
+## resolucao-612
+- `(inteira)` → fragmentos/resolucoes/resolucao-612.md
+
+## resolucao-615
+- `(inteira)` → fragmentos/resolucoes/resolucao-615.md
+
+## resolucao-628
+- `(inteira)` → fragmentos/resolucoes/resolucao-628.md
+
+## resolucao-63
+- `(inteira)` → fragmentos/resolucoes/resolucao-63.md
+
+## resolucao-636
+- `(inteira)` → fragmentos/resolucoes/resolucao-636.md
+
+## resolucao-646
+- `(inteira)` → fragmentos/resolucoes/resolucao-646.md
+
 ## resolucao-674
 - `(inteira)` → fragmentos/resolucoes/resolucao-674.md
 
@@ -5031,3 +5410,6 @@
 
 ## resolucao-805
 - `(inteira)` → fragmentos/resolucoes/resolucao-805.md
+
+## resolucao-93
+- `(inteira)` → fragmentos/resolucoes/resolucao-93.md
