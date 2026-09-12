@@ -1,7 +1,7 @@
 # VORTEX — docs/10: NAVEGAÇÃO POR APP (v2 — nível de clique, referência do frontend)
 
-> **Versão 2 — 12/09/2026.** Reformulado para os **13 aplicativos**, a **SPA única Angular** (Opção A — lazy loading por feature-lib) e o **Núcleo separado da Rconta**.
-> Estrutura global: a Shell Angular hospeda as 13 feature-libs; a rota inicial é resolvida pelo **subdomínio**. Barra superior global: **Central de Comunicação** (Chat · Alertas · E-mails · Comunicados Oficiais) + **Tema** (Claro → Escuro → Personalizado, alterna a cada clique). Barra lateral por app conforme abaixo.
+> **Versão 2 — 12/09/2026.** Reformulado para os **14 aplicativos**, a **SPA única Angular** (Opção A — lazy loading por feature-lib) e o **Núcleo separado da Rconta**.
+> Estrutura global: a Shell Angular hospeda as 14 feature-libs; a rota inicial é resolvida pelo **subdomínio**. Barra superior global: **Central de Comunicação** (Chat · Alertas · E-mails · Comunicados Oficiais) + **Tema** (Claro → Escuro → Personalizado, alterna a cada clique). Barra lateral por app conforme abaixo.
 > Convenção: `[lista]`, `[kanban]`, `[form]`, `[detalhe]`, `[timeline]` indicam o tipo de tela. Toda tela de escrita valida permissão no backend; a navegação esconde apenas o que o usuário não pode ver (UX).
 > Componentes do Design System (`@vortex/ui`): **ValidationBadge** (selos N0–N3) ao lado de dados validáveis; **LedgerTimeline** (`[timeline]`) abre o histórico de qualquer registro como filtro do ledger — nunca lista editável.
 
@@ -9,7 +9,7 @@
 
 ## 0. SHELL (global — todos os apps)
 
-- **Top bar:** logo (white-label no Enterprise) · seletor de app (13 apps autorizados ao usuário) · Central de Comunicação (Chat `[chat websocket]` · Alertas com badges `[lista]` · E-mails `[lista → leitor]` · Comunicados `[lista → detalhe]`) · Tema `[toggle 3 estados]` · perfil/sessão.
+- **Top bar:** logo (white-label no Enterprise) · seletor de app (14 apps autorizados ao usuário) · Central de Comunicação (Chat `[chat websocket]` · Alertas com badges `[lista]` · E-mails `[lista → leitor]` · Comunicados `[lista → detalhe]`) · Tema `[toggle 3 estados]` · perfil/sessão.
 - **Sidebar:** menus do app ativo (abaixo), gerados por permissão.
 - **Padrão de detalhe:** abas `Dados · Itens · [timeline Ledger] · Documentos · Comunicação`.
 - **Rotas:** cada app = `loadChildren` de sua feature-lib; guards de permissão (UX) + validação no backend (verdade).
@@ -96,26 +96,7 @@
 
 ---
 
-## 5. ERP MANUTENÇÃO 43/145 (`mro.vortex.com`)
-
-- Dashboard `[KPIs: OS por etapa, atrasos, calibrações vencendo, retenções]`
-- Comercial/CRM `[pipeline → proposta → OS]`
-- **Biblioteca Técnica** `[manuais | boletins | DA/FCDA]` — com **recortes de Publicações** `[tarefa → recorte do manual (se assinante); sem assinatura → orientação de obtenção externa]`
-- Suprimentos
-  - Ferramentaria `[lista → calibração]`
-  - Estoque técnico `[lista → etiquetas → FORM 8130-3]`
-  - Compras `[pedidos → fornecedores]`
-  - Importações `[processos]`
-- Setor de Registros `[cadernetas (Parte I = projeção; Parte II = eventos) | OS arquivadas | retenções]`
-- Manutenção/Oficina `[OS kanban 12 etapas → APRS/CRS → SEGVOO]`
-- Qualidade/SGSO `[NC | auditorias | perigos]`
-- RH interno `[mecânicos (CHT via núcleo) | treinamentos | escalas]` + **Vagas** `[form RH completo → Recrutamento]`
-- Administrativo geral `[RH | Financeiro | Contabilidade (dupla entrada) | Compras]`
-- Relatórios / Configuração
-
----
-
-## 6. ERP OPERADORES 91/121/135 (`ops.vortex.com`)
+## 5. ERP OPERADORES 91/121/135 (`ops.vortex.com`)
 
 - Dashboard `[KPIs frota/despacho/conformidade]`
 - **Departamento Operações**
@@ -135,17 +116,36 @@
 
 ---
 
-## 7. ERP CURSOS E TREINAMENTOS 141/142 (`training.vortex.com`)
+## 6. ERP CURSOS E TREINAMENTOS 141/142 (`training.vortex.com`)
 
+Árvore nível-clique (docs/10 v2 §7 — verbatim):
 - Dashboard `[turmas | certificados | vendas]`
 - Comercial/CRM `[pipeline → matrículas]`
-- Cursos `[catálogo → publicar na RLoja]`
-- Turmas `[alunos | instrutores | agenda | frequência | avaliações]`
+- Cursos `[catálogo → publicar na RLoja]` — inclui currículos das ISs 121-006/007/008/011, 135-001/003, 137-207
+- Turmas `[alunos | instrutores | agenda | frequência | avaliações]` + **Turmas corporativas (contratadas por operadores/agrícola)**
 - Simuladores (FSTD) `[dispositivos | qualificações | reservas]`
 - Certificados `[emissão ≤10 dias | diplomas]`
 - S141 `[sincronização ANAC]`
 - RH interno `[instrutores | examinadores]` + Vagas
-- Administrativo geral `[RH | Financeiro | Contabilidade | Compras]`
+- Administrativo geral `[RH | financeiro | contabilidade | compras]`
+- Relatórios `[desempenho | conformidade S141 | vendas]`
+- Configuração `[tipos de curso | matriz curricular | templates de certificado]`
+
+## 7. ERP MANUTENÇÃO 43/145 (`mro.vortex.com`)
+
+- Dashboard `[KPIs: OS por etapa, atrasos, calibrações vencendo, retenções]`
+- Comercial/CRM `[pipeline → proposta → OS]`
+- **Biblioteca Técnica** `[manuais | boletins | DA/FCDA]` — com **recortes de Publicações** `[tarefa → recorte do manual (se assinante); sem assinatura → orientação de obtenção externa]`
+- Suprimentos
+  - Ferramentaria `[lista → calibração]`
+  - Estoque técnico `[lista → etiquetas → FORM 8130-3]`
+  - Compras `[pedidos → fornecedores]`
+  - Importações `[processos]`
+- Setor de Registros `[cadernetas (Parte I = projeção; Parte II = eventos) | OS arquivadas | retenções]`
+- Manutenção/Oficina `[OS kanban 12 etapas → APRS/CRS → SEGVOO]`
+- Qualidade/SGSO `[NC | auditorias | perigos]`
+- RH interno `[mecânicos (CHT via núcleo) | treinamentos | escalas]` + **Vagas** `[form RH completo → Recrutamento]`
+- Administrativo geral `[RH | Financeiro | Contabilidade (dupla entrada) | Compras]`
 - Relatórios / Configuração
 
 ---
@@ -210,19 +210,26 @@
 
 ---
 
-## 13. CERTIFICAÇÕES E PUBLICAÇÕES (`certpub.vortex.com`)
+## 13. CERTIFICAÇÕES (`certificacoes.vortex.com`) — produto na RLoja
 
-- **Certificações** `[catálogo por norma (91 Ap.K, 121, 135, 137, 145, 141, 142, 153) → comprar na RLoja → trilha de conformidade: checklist por requisito → documentos → protocolos → acompanhamento]`
+- Catálogo por norma `[91 Ap.K, 121, 135, 137, 145, 141, 142, 153 → comprar na RLoja]`
+- **Trilha de conformidade** `[checklist por requisito → documentos → protocolos SEI → fases → acompanhamento]`
   - Minha certificação `[detalhe: fase atual, pendências, evidências, [timeline]]`
-- **Publicações** `[catálogo de pacotes de manuais (fabricante/Veryon) → assinar (anual) → biblioteca]`
-  - Biblioteca de manuais `[lista → leitor (digitalizado/OCR) → busca por ATA]`
-  - **Recortes** `[tarefa de manutenção → recorte do manual aplicável (se assinante); sem assinatura → orientação de obtenção externa]`
-  - Minhas assinaturas de publicações `[lista → detalhe → renovação]`
+- Configuração `[produtos, preços]`
+
+---
+
+## 14. PUBLICAÇÕES (`publicacoes.vortex.com`) — assinatura anual de manuais
+
+- Catálogo de pacotes `[manuais digitalizados (fabricante/Veryon, sob licenciamento) → assinar (anual)]`
+- Biblioteca de manuais `[lista → leitor (digitalizado/OCR) → busca por ATA]`
+- **Recortes** `[tarefa de manutenção → recorte do manual aplicável (se assinante); sem assinatura → orientação de obtenção externa]`
+- Minhas assinaturas de publicações `[lista → detalhe → renovação]`
 - Configuração `[pacotes, preços, licenças]`
 
 ---
 
-## 14. CAMADA ADMINISTRATIVA GERAL (disponível em qualquer ERP/tenant)
+## 15. CAMADA ADMINISTRATIVA GERAL (disponível em qualquer ERP/tenant)
 
 - **RH:** Colaboradores · Contratos · Cargos · Escalas · Férias/Ausências · Ponto · Despesas · Treinamentos internos
 - **Financeiro:** Contas a Pagar · Contas a Receber · Faturas · Cobranças · Fluxo de Caixa · Conciliação
@@ -233,7 +240,7 @@
 
 ---
 
-## 15. REGRAS DE NAVEGAÇÃO (v2)
+## 16. REGRAS DE NAVEGAÇÃO (v2)
 
 1. Toda tela de escrita exige permissão RBAC/ABAC no backend; a navegação esconde apenas o que o usuário não pode ver (UX), nunca valida regra.
 2. Histórico de qualquer registro abre como **LedgerTimeline** (filtro do ledger), nunca como lista editável.

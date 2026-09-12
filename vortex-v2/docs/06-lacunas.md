@@ -36,8 +36,7 @@
 
 | Arquivo | Conteúdo | Parte | Status v1 | Resolução v2 |
 |---------|----------|-------|-----------|--------------|
-| CLAUDE.md | Contrato global, 10 regras, stack, schemas, ledger, MDM | Todas | COBERTO (essência) | **Reescrito integralmente (v2)** — Angular/Nx, 13 apps, seções 5-A/5-B/6 |
-| docs/rbac-183.md | Validade 3 anos, alerta 60 dias, F-101-06 | Parte 1, 7 | COBERTO | — |
+| CLAUDE.md | Contrato global, 10 regras, stack, schemas, ledger, MDM | Todas | COBERTO (essência) | **Reescrito integralmente (v2)** — Angular/Nx, 14 apps, seções 5-A/5-B/6 || docs/rbac-183.md | Validade 3 anos, alerta 60 dias, F-101-06 | Parte 1, 7 | COBERTO | — |
 | docs/res-458.md | IDs 646-655, ledger imutável | Parte 2 | COBERTO | Ampliado: conteúdo cifrado + acesso auditado (contrato seção 5-A) |
 | docs/res-520.md | Protocolo AAAA-NNNNNN, timeline, acesso | Parte 2 | COBERTO | — |
 | docs/lei-14063.md | Assinatura 3 níveis | Parte 3 | COBERTO | Ampliado: bloco de assinatura SEI (contrato seção 5-B) |
@@ -70,10 +69,10 @@
 | N4 | Bloco de assinatura visual | Seção 5-B (QR SVG + manifesto SEI, /ass/autenticidade) |
 | N5 | Contabilidade sem especificação | Seção 6 (dupla entrada, schema `accounting`) |
 | N6 | Núcleo sem interface de gestão | Seção 11 (console de gestão zero-trust) |
-| N7 | Apps de serviço (Travel, Fretamento, Certificações) | Tabela de 13 apps + docs/10 v2 (navegação) |
+| N7 | Apps de serviço (Travel, Fretamento, Certificações, Publicações) | Tabela de 14 apps + docs/10 v2 (navegação) |
 | N8 | Declarações automáticas de experiência | Seção 4.3 do contrato (Recrutamento completo) |
 | N9 | Estoque criado na RLoja (origem nova) | Seção 4.5 (bidirecional RLoja ↔ ERP) |
-| N10 | **8 partes insuficientes para 13 apps** | **Partes 9 e 10 criadas (12/09/2026): Parte 8 reescopada (RLoja/integrações/BRE/comunicação), Parte 9 (Travel/Fretamento/CertPub), Parte 10 (App ANAC/Console do Núcleo)** |
+| N10 | **8 partes insuficientes para 13 apps** | **Partes 9 e 10 criadas (12/09/2026): Parte 8 reescopada (RLoja/integrações/BRE/comunicação), Parte 9 (Travel/Fretamento/CertPub), Parte 10 (App ANAC/Console do Núcleo)** — registro histórico: na época, o CertPub era um app só; hoje são 14 apps (CertPub dividido em Certificações e Publicações) |
 
 ## 6. RESUMO QUANTITATIVO
 

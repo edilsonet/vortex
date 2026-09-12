@@ -1,6 +1,6 @@
 # VORTEX — docs/01: MATRIZ REGULATÓRIA CONSOLIDADA (v2)
 
-> **Versão 2 — 12/09/2026.** O conteúdo regulatório (~1.370 requisitos) permanece **intocado** — é dado oficial, não arquitetura. Mudanças desta versão: **coluna "App" atualizada para os 13 aplicativos** (Núcleo absorveu o Catálogo Central; ERP Agrícola 137 desmembrado do Operadores; novos apps ANAC, Travel, Fretamento e Certificações e Publicações) e referência ao **recorte de Publicações** nas tarefas de manutenção.
+> **Versão 2 — 12/09/2026.** O conteúdo regulatório (~1.370 requisitos) permanece **intocado** — é dado oficial, não arquitetura. Mudanças desta versão: **coluna "App" atualizada para os 14 aplicativos** (Núcleo absorveu o Catálogo Central; ERP Agrícola 137 desmembrado do Operadores; novos apps ANAC, Travel, Fretamento, Certificações e Publicações — o antigo CertPub dividido em dois) e referência ao **recorte de Publicações** nas tarefas de manutenção.
 > Antes de fixar qualquer requisito em código, verifique a vigência no site da ANAC.
 > Em divergência de valores, prevalece o `docs/07-delimitacao.md`; em arquitetura, o `CLAUDE.md v2`.
 
@@ -133,7 +133,7 @@
 
 ### 2.11 RBAC 21 — Certificação de Produto Aeronáutico
 - **IDs 580–599 / RBAC 21, IS 21-001:** Certificação de Tipo em 6 etapas, CT, TCDS, CST/STC, DLA, AIT, FCAR, F-101-11, ICA/ALI, AFM/RFM, placas de dados, F-101-06, grandes reparos.
-- **v2:** a condução à certificação de empresas (91 Ap.K, 121, 135, 137, 145, 141, 142, 153) é produto do app **Certificações e Publicações**.
+- **v2:** a condução à certificação de empresas (91 Ap.K, 121, 135, 137, 145, 141, 142, 153) é produto do app **Certificações**.
 
 ### 2.12 RBAC 01 — Definições, Regras de Redação e Unidades
 - **IDs 531–579 / RBAC 01:** Taxonomia, componente vs peça, manutenção/alteração/reparo/reconstrução, aeronavegabilidade, dados aprovados vs aceitos, certificados, licenças/CHT/CMA, TSO/PMA/OTP, shelf life, conversor de unidades, siglas, STE-BR.
@@ -301,10 +301,10 @@
 - RBAC 183 EMD 01 (Res 477/2018; última mod. 12/02/2025).
 
 ## 5. MUDANÇAS DA v1 → v2 NESTE DOCUMENTO
-1. **Coluna "App" atualizada para os 13 apps** — "Catálogo" → **Núcleo** (catálogo absorvido); "ERP 145" → **ERP Manutenção**; "erp121135" → **ERP Operadores**; "erp141142" → **ERP Cursos e Treinamentos**; "erp153" → **ERP Aeródromos**.
+1. **Coluna "App" atualizada para os 14 apps** — "Catálogo" → **Núcleo** (catálogo absorvido); "ERP 145" → **ERP Manutenção**; "erp121135" → **ERP Operadores**; "erp141142" → **ERP Cursos e Treinamentos**; "erp153" → **ERP Aeródromos**.
 2. **RBAC 137** apontado para o **ERP Agrícola** (app próprio) — com nota de que o fretamento agrícola é do app Fretamento.
 3. **RBAC 121/135** com notas de que a venda de passagens 121 é do **Travel** e o fretamento 135 do **Fretamento**.
-4. **RBAC 21** com nota do app **Certificações e Publicações** (condução à certificação de empresas).
+4. **RBAC 21** com nota do app **Certificações** (condução à certificação de empresas).
 5. **ID 1215** (vinculação a manuais) com nota do **recorte de Publicações**.
 6. **ID 643** (cadernetas) com nota do princípio "registro é um só" (Parte I = projeção; Parte II = eventos).
 7. **Seção 2.13 nova** — RBACs 23/25/26/27/29/33/35/45 incluídos na Identidade do contrato v2 (detalhamento futuro na matriz).

@@ -1,6 +1,6 @@
 # VORTEX — docs/00: VISÃO GERAL DO ECOSSISTEMA (v2)
 
-> **Versão 2 — 12/09/2026.** Reformulado conforme o CLAUDE.md v2 (Angular moderno + Nx; Núcleo separado da Rconta; 13 aplicativos). Em divergência de valores, prevalece o `docs/07-delimitacao.md`; em divergência de arquitetura, prevalece o `CLAUDE.md v2`.
+> **Versão 2 — 12/09/2026.** Reformulado conforme o CLAUDE.md v2 (Angular moderno + Nx; Núcleo separado da Rconta; 14 aplicativos). Em divergência de valores, prevalece o `docs/07-delimitacao.md`; em divergência de arquitetura, prevalece o `CLAUDE.md v2`.
 > Este documento é a porta de entrada da pasta. Leia antes de qualquer parte.
 
 ---
@@ -13,7 +13,7 @@ Segmentos regulados cobertos: RBAC 01, 21, 23, 25, 26, 27, 29, 33, 35, 39, 45, 4
 
 ## 2. PRINCÍPIO ARQUITETURAL CENTRAL (IMUTÁVEL)
 
-> **O NÚCLEO é o DONO DA VERDADE — e é um aplicativo/serviço próprio, separado da Rconta. TODOS os apps, sem exceção (Rconta, ERPs, RLoja, Recrutamento, Travel, Fretamento, App ANAC, Certificações e Publicações e futuros), são CONSUMIDORES: inserem no núcleo via API e consomem dele. Nenhum app cria cadastro próprio de pessoa, produto, vaga ou currículo.**
+> **O NÚCLEO é o DONO DA VERDADE — e é um aplicativo/serviço próprio, separado da Rconta. TODOS os apps, sem exceção (Rconta, ERPs, RLoja, Recrutamento, Travel, Fretamento, App ANAC, Certificações, Publicações e futuros), são CONSUMIDORES: inserem no núcleo via API e consomem dele. Nenhum app cria cadastro próprio de pessoa, produto, vaga ou currículo.**
 
 - O **Núcleo** (`nucleo.vortex.com`) concentra o **Cadastro Central** (Pessoas, Profissionais, Empresas, Estoque, Catálogo, Documentos), o **Ledger** e o **Banco de Dados Central**.
 - O mesmo dado pode ser criado/editado por **qualquer app autorizado** (ex.: currículo pela Rconta OU pelo Recrutamento; endereço pela Rconta, RLoja OU Recrutamento). O que muda é apenas o **app de origem** registrado no evento do ledger; o cadastro vive **uma única vez** no núcleo.
@@ -21,23 +21,24 @@ Segmentos regulados cobertos: RBAC 01, 21, 23, 25, 26, 27, 29, 33, 35, 39, 45, 4
 - **Registro é um só:** eventos primários nascem no ledger; totais e mapas (caderneta Parte I, controle de manutenção) são **projeções agregadas recomputáveis**.
 - O Núcleo possui **console de gestão** restrito aos administradores da plataforma: vê estados e métricas, **nunca conteúdo** (zero-trust — "administrar sem ver").
 
-## 3. OS 13 APLICATIVOS
+## 3. OS 14 APLICATIVOS
 
 | # | Aplicativo | Subdomínio | Modelo | Escopo |
 |---|-----------|------------|--------|--------|
 | 1 | **Núcleo** | nucleo.vortex.com | Serviço central (não vendido) | Cadastro Central + Ledger + Banco Central; console de gestão (admins; zero-trust) |
 | 2 | **Rconta** | rconta.vortex.com | Grátis (banners) / VIP | App do usuário: 7 módulos + 2 menus — consome o núcleo |
-| 3 | **RLoja** | market.vortex.com | Comissão 3% do vendedor | Marketplace B2B multi-vendor; anúncio = visão do estoque; vender não exige assinatura |
-| 4 | **Recrutamento** | recruta.vortex.com | Embutido no ERP / Assinatura de Vagas | Vagas (2 origens) + currículos; permite tudo que o Profissional da Rconta faz + RH completo; declarações automáticas de experiência; **sem comissão** |
-| 5 | **ERP Manutenção** | mro.vortex.com | Assinatura | Oficina 43/145 (12 etapas), biblioteca técnica, suprimentos, registros, qualidade |
-| 6 | **ERP Operadores** | ops.vortex.com | Assinatura | 91/119/121/135: frota, despacho, diário técnico, MEL/DA, manuais |
-| 7 | **ERP Cursos e Treinamentos** | training.vortex.com | Assinatura | 141/142/145-010 + 121-006/007/008/011/135-001/003/137-207; **único que cria e vende cursos** na RLoja |
+| 3 | **Recrutamento** | recruta.vortex.com | Embutido no ERP / Assinatura de Vagas | Vagas (2 origens) + currículos; permite tudo que o Profissional da Rconta faz + RH completo; declarações automáticas de experiência; **sem comissão** |
+| 4 | **RLoja** | market.vortex.com | Comissão 3% do vendedor | Marketplace B2B multi-vendor; anúncio = visão do estoque; vender não exige assinatura |
+| 5 | **ERP Operadores** | ops.vortex.com | Assinatura | 91/119/121/135: frota, despacho, diário técnico, MEL/DA, manuais |
+| 6 | **App ANAC** | anac.vortex.com | Uso oficial (não vendido) | Auditor do ledger e de pessoas/empresas: acesso consentido → recusa → suspensão de certificação → compulsória; somente-leitura; ciclo auditado |
+| 7 | **ERP Manutenção** | mro.vortex.com | Assinatura | Oficina 43/145 (12 etapas), biblioteca técnica, suprimentos, registros, qualidade |
 | 8 | **ERP Agrícola** | agri.vortex.com | Assinatura | 137: CDAG, dispersores, DGPS, SGSO aeroagrícola |
-| 9 | **ERP Aeródromos** | airport.vortex.com | Assinatura | 153: pousos/decolagens, pista/RWYCC, SESCINC, fauna/SIGRA, SGSO, infraestrutura |
-| 10 | **App ANAC** | anac.vortex.com | Uso oficial (não vendido) | Auditor do ledger e de pessoas/empresas: acesso consentido → recusa → suspensão de certificação → compulsória; somente-leitura; ciclo auditado |
+| 9 | **ERP Cursos e Treinamentos** | training.vortex.com | Assinatura | 141/142/145-010 + 121-006/007/008/011/135-001/003/137-207; **único que cria e vende cursos** na RLoja |
+| 10 | **ERP Aeródromos** | airport.vortex.com | Assinatura | 153: pousos/decolagens, pista/RWYCC, SESCINC, fauna/SIGRA, SGSO, infraestrutura |
 | 11 | **Travel** | travel.vortex.com | Comissão de agência | Busca e venda de passagens de linhas regulares 121 |
 | 12 | **Fretamento** | charter.vortex.com | Comissão/contrato | Reserva e venda de fretamento 135 (passageiros, carga, aeromédico) e 137 (agrícola) |
-| 13 | **Certificações e Publicações** | certpub.vortex.com | Certificações: produto na RLoja · Publicações: assinatura anual | Certificações (91 Ap.K, 121, 135, 137, 145, 141, 142, 153) como produto; publicações = assinaturas anuais de manuais digitalizados (Veryon/fabricantes, sob licenciamento), com **recortes consumidos pelas tarefas de manutenção** dos ERPs |
+| 13 | **Certificações** | certificacoes.vortex.com | Produto (na RLoja) | Condução da empresa à certificação/cumprimento (91 Ap.K, 121, 135, 137, 145, 141, 142, 153): trilha de conformidade com checklist por requisito, evidências, protocolos SEI e fases |
+| 14 | **Publicações** | publicacoes.vortex.com | Assinatura anual | Assinaturas anuais de pacotes de manuais digitalizados (fabricantes e Veryon — sujeito a acordo de licenciamento), com **recortes consumidos pelas tarefas de manutenção** dos ERPs (Manutenção/Agrícola); sem assinatura, sem recorte — a tarefa nunca é bloqueada |
 
 **Rconta — 7 módulos + 2 menus:** Pessoal · Profissional · Empresarial · Protocolo · Assinaturas · Personalização · Segurança + Dashboard · Configurações. (A Rconta é a experiência do usuário sobre o núcleo; os mesmos dados são acessíveis pelos demais apps autorizados.)
 
@@ -81,7 +82,7 @@ Segmentos regulados cobertos: RBAC 01, 21, 23, 25, 26, 27, 29, 33, 35, 39, 45, 4
 
 ## 6. NÚCLEOS DE BACKEND
 
-`Cadastro Central` (Pessoas, Profissionais, Empresas, Estoque, Catálogo, Documentos) · `Ledger` · `Protocolo` · `Assinaturas/Billing` · `RH Core` (nos ERPs) · `Recrutamento` · `RLoja` · `Comunicação` (WebSockets) · `Contabilidade` (dupla entrada) · `Certificações/Publicações` · `Ops/ERPs`.
+`Cadastro Central` (Pessoas, Profissionais, Empresas, Estoque, Catálogo, Documentos) · `Ledger` · `Protocolo` · `Assinaturas/Billing` · `RH Core` (nos ERPs) · `Recrutamento` · `RLoja` · `Comunicação` (WebSockets) · `Contabilidade` (dupla entrada) · `Certificações` · `Publicações` · `Ops/ERPs`.
 
 ### 6-A. Camada administrativa geral e Central de Comunicação
 - **Camada administrativa geral** (qualquer empresa/tenant): RH · Financeiro · **Contabilidade (dupla entrada)** · Compras · Comercial/CRM · Estoque/Administrativo · Documentos/Contratos.
@@ -152,7 +153,7 @@ Segmentos regulados cobertos: RBAC 01, 21, 23, 25, 26, 27, 29, 33, 35, 39, 45, 4
 6. **Parte 6:** ERP Operadores (91/121/135) + ERP Agrícola (137).
 7. **Parte 7:** ERP Cursos (141/142 + ISs) + ERP Aeródromos (153).
 8. **Parte 8:** RLoja, integrações (ANAC/gov/Asaas/Resend/Sentry), BRE, Central de Comunicação, consolidação.
-9. **Parte 9:** Travel, Fretamento, Certificações e Publicações.
+9. **Parte 9:** Travel, Fretamento, Certificações, Publicações.
 10. **Parte 10:** App ANAC + Console do Núcleo.
 11. **Docs 09–10:** refinamento das árvores de menu e navegação.
 

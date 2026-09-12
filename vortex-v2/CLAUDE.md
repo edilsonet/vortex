@@ -47,7 +47,7 @@ Referências conceituais de esqueleto de ERP/CRM (apenas ideia, sem código): `d
 2. **Ledger imutável (append-only) — linha do tempo com conteúdo:** todo evento relevante vira bloco com hash SHA-256 encadeado + assinatura Ed25519, e o payload contém **o conteúdo completo do que aconteceu**: quem fez (e com qual papel — administrador, usuário, empresa, vendedor ou comprador), quando iniciou, quando terminou, o que aconteceu e de qual aplicativo veio. **O ledger É a linha do tempo** — não existe timeline separada nem histórico duplicado; o que qualquer app exibe é um **filtro projetado do ledger** (por entidade, pessoa, empresa, aeronave, peça ou OS). UPDATE/DELETE bloqueados por trigger. **Payload cifrado em repouso e acesso descriptografado governado** (ver seção 5-A).
 3. **Validação em níveis que nunca bloqueia fluxo:** N0 pendente (⚪) → N1 sistema (🟡) → N2 fonte oficial (🟢 gov/Receita/Correios/SACI/RAB) → N3 empresa/administrador (🔵 autêntico). Dado pendente é exibido sem selo; o fluxo nunca para por aprovação.
 4. **Vínculo misto com dupla confirmação:** pessoa↔empresa só fica ATIVO quando os dois lados aprovam.
-5. **Monetização:** RLoja por **comissão de 3% do vendedor** (comprador isento). **Recrutamento SEM comissão** (ver seção 4.3). **8 produtos por assinatura (v2):** Rconta VIP, Assinatura de Vagas (Recrutamento sem ERP), ERP Manutenção, ERP Operadores, ERP Cursos e Treinamentos, **ERP Agrícola**, ERP Aeródromos, **Publicações**. **Catálogo não é vendido** (serviço do Núcleo, só inserção/busca).
+5. **Monetização:** RLoja por **comissão de 3% do vendedor** (comprador isento). **Recrutamento SEM comissão** (ver seção 4.3). **8 produtos por assinatura (v2):** Rconta VIP, Assinatura de Vagas (Recrutamento sem ERP), ERP Manutenção, ERP Operadores, ERP Cursos e Treinamentos, **ERP Agrícola**, ERP Aeródromos, **Publicações** (app próprio, v4). **Certificações** (v4) é produto avulso na RLoja, não assinatura. **Catálogo não é vendido** (serviço do Núcleo, só inserção/busca).
 6. **Cursos só pelo ERP de Cursos e Treinamentos (141/142/145-010):** é o único que cria e vende cursos na RLoja; os demais ERPs têm treinamento interno apenas para funcionários.
 7. **Estoque e custódia:** estoque pessoal no módulo Profissional; estoque empresarial (1 por empresa) no módulo Empresarial; catálogo único no **Núcleo** (serviço do Cadastro Central). Contratou ERP → custódia migra para o ERP. Suspendeu/cancelou → estoque volta à Rconta como **um único estoque** com marcação de origem por item. Regularizou → o sistema **pergunta** se restaura os estoques nas posições originais; itens vendidos não voltam.
 8. **Banners:** Rconta grátis exibe anúncios; Rconta VIP ou compra de qualquer ERP remove os anúncios **apenas na Rconta do comprador**.
@@ -321,7 +321,8 @@ Erros padrão: `AUTH_REQUIRED`(401) · `TOKEN_EXPIRED`(401) · `PERMISSION_DENIE
   anac-app-service       # App ANAC (auditor; somente-leitura)
   travel-service         # Travel (passagens 121)
   charter-service        # Fretamento (135/137)
-  certpub-service        # Certificações e Publicações
+  certifications-service # Certificações (produto na RLoja — trilha de conformidade)
+  publications-service   # Publicações (assinatura anual de manuais + recortes)
 /libs
   shared-dto             # contratos TS únicos (front + back), enums, validações
   ui                     # Design System (Material + ValidationBadge + temas)
@@ -338,12 +339,13 @@ Erros padrão: `AUTH_REQUIRED`(401) · `TOKEN_EXPIRED`(401) · `PERMISSION_DENIE
   feature-anac           # App ANAC
   feature-travel         # Travel
   feature-charter        # Fretamento
-  feature-certpub        # Certificações e Publicações
+  feature-certificacoes  # Certificações (produto na RLoja)
+  feature-publicacoes    # Publicações (assinatura anual + recortes)
   util-*                 # helpers (datas regulatórias, moeda, unidades RBAC 01)
 /tools, /migrations, /seeds
 ```
 
-Schemas PostgreSQL: `identity` · `professional` · `stock` · `recruitment` · `market` · `communication` · `accounting` · `mro` · `ops` · `training` · `agri` · `airport` · `ledger` · `protocol` · `documents` · `signatures` · `catalog` · `subscriptions` · `oauth` · `compliance` · `notifications` · `travel` · `charter` · `anac` · `certpub`.
+Schemas PostgreSQL: `identity` · `professional` · `stock` · `recruitment` · `market` · `communication` · `accounting` · `mro` · `ops` · `training` · `agri` · `airport` · `ledger` · `protocol` · `documents` · `signatures` · `catalog` · `subscriptions` · `oauth` · `compliance` · `notifications` · `travel` · `charter` · `anac` · `certifications` · `publications`.
 
 ---
 
@@ -353,17 +355,18 @@ Schemas PostgreSQL: `identity` · `professional` · `stock` · `recruitment` · 
 |---|-----------|------------|--------|--------|
 | 1 | **Núcleo** | nucleo.vortex.com | Serviço central (não vendido) | Fonte única de verdade: **Cadastro Central** (Pessoas, Profissionais, Empresas, Estoque, **Catálogo**, Documentos), **Ledger** e **Banco de Dados Central**. Todos os apps inserem e consomem via API. **Console de gestão** (interface restrita aos administradores da plataforma): tenants, concessões de acesso, revisão de descriptografias, integridade do ledger, catálogo — tudo auditado no ledger; o console vê estados e métricas, nunca conteúdo (zero-trust, seção 5-A) |
 | 2 | **Rconta** | rconta.vortex.com | Grátis (banners) / VIP | App do usuário: 7 módulos + 2 menus — consome o núcleo |
-| 3 | **RLoja** | market.vortex.com | Comissão 3% | Marketplace B2B (agrega estoques); estoque criado aqui migra ao ERP quando contratado |
-| 4 | **Recrutamento** | recruta.vortex.com | Embutido no ERP / Assinatura de Vagas | Vagas de 2 origens + currículos; permite tudo que o Profissional da Rconta faz + RH completo (cargo, função, salário, requisitos, objetivo); **sem comissão** |
-| 5 | **ERP Manutenção** | mro.vortex.com | Assinatura | Oficina 43/145 (12 etapas) |
-| 6 | **ERP Operadores** | ops.vortex.com | Assinatura | 91/119/121/135 (regulares e não regulares) |
-| 7 | **ERP Cursos e Treinamentos** | training.vortex.com | Assinatura | 141/142/145-010 **+ 121-006/121-007/121-008/121-011/135-001/135-003/137-207** (único que vende cursos) — **CONFIRMADO (18:05)** |
+| 3 | **Recrutamento** | recruta.vortex.com | Embutido no ERP / Assinatura de Vagas | Vagas de 2 origens + currículos; permite tudo que o Profissional da Rconta faz + RH completo (cargo, função, salário, requisitos, objetivo); **sem comissão** |
+| 4 | **RLoja** | market.vortex.com | Comissão 3% | Marketplace B2B (agrega estoques); estoque criado aqui migra ao ERP quando contratado |
+| 5 | **ERP Operadores** | ops.vortex.com | Assinatura | 91/119/121/135 (regulares e não regulares) + PPSP (RBAC 120) |
+| 6 | **App ANAC** | anac.vortex.com | Uso oficial (não vendido) | Auditor do ledger e de pessoas/empresas: solicitação de acesso (consentida → recusa → suspensão de certificação → compulsória), somente-leitura, ciclo auditado (seção 5-A) |
+| 7 | **ERP Manutenção** | mro.vortex.com | Assinatura | Oficina 43/145 (12 etapas) |
 | 8 | **ERP Agrícola** | agri.vortex.com | Assinatura | 137: CDAG, dispersores, DGPS, SGSO aeroagrícola (desmembrado do ERP Operadores — decisão 12/09/2026) |
-| 9 | **ERP Aeródromos** | airport.vortex.com | Assinatura | 153: pousos/decolagens, pista/RWYCC, SESCINC, fauna/SIGRA, SGSO, infraestrutura |
-| 10 | **App ANAC** | anac.vortex.com | Uso oficial (não vendido) | Auditor do ledger e de pessoas/empresas: solicitação de acesso (consentida → recusa → suspensão de certificação → compulsória), somente-leitura, ciclo auditado (seção 5-A) |
+| 9 | **ERP Cursos e Treinamentos** | training.vortex.com | Assinatura | 141/142/145-010 **+ 121-006/121-007/121-008/121-011/135-001/135-003/137-207** (único que vende cursos) — **CONFIRMADO (18:05)** |
+| 10 | **ERP Aeródromos** | airport.vortex.com | Assinatura | 153: pousos/decolagens, pista/RWYCC, SESCINC, fauna/SIGRA, SGSO, infraestrutura |
 | 11 | **Travel** | travel.vortex.com | Comissão de agência | Busca e venda de passagens de linhas regulares 121 (modelo agência de viagem) |
 | 12 | **Fretamento** | charter.vortex.com | Comissão/contrato | Reserva e venda de fretamento 135 (passageiros, carga, aeromédico) e 137 (agrícola) |
-| 13 | **Certificações e Publicações** | certpub.vortex.com | Certificações: produto na RLoja · Publicações: assinatura anual | **Certificações:** produto online (anunciado na RLoja) que conduz a empresa à certificação/cumprimento para 91 Apêndice K, 121, 135, 137, 145, 141, 142 e 153. **Publicações:** assinaturas anuais com acesso a pacotes de manuais digitalizados (fabricantes e Veryon — sujeito a acordo de licenciamento), atrelados às tarefas de manutenção dos ERPs: a tarefa consome o **recorte** do manual aplicável; sem a assinatura, sem acesso ao recorte (obtenção por fora) |
+| 13 | **Certificações** | certificacoes.vortex.com | Produto na RLoja (avulso) | Produto online (anunciado na RLoja) que conduz a empresa à certificação/cumprimento para 91 Apêndice K, 121, 135, 137, 145, 141, 142 e 153 — trilha de conformidade: checklist por requisito (seeds), documentos exigidos, protocolos SEI, acompanhamento de fase |
+| 14 | **Publicações** | publicacoes.vortex.com | Assinatura anual | Assinaturas anuais com acesso a pacotes de manuais digitalizados (fabricantes e Veryon — sujeito a acordo de licenciamento), atrelados às tarefas de manutenção dos ERPs: a tarefa consome o **recorte** do manual aplicável; sem a assinatura, sem acesso ao recorte (obtenção por fora) |
 
 **Rconta — 7 módulos + 2 menus:** Pessoal · Profissional · Empresarial · Protocolo · Assinaturas · Personalização · Segurança + Dashboard · Configurações. *(A Rconta é a experiência do usuário sobre o núcleo — os mesmos dados são acessíveis pelos demais apps autorizados.)*
 
@@ -390,7 +393,7 @@ OS · FORM 8130-3 · APRS/CRS · DA/FCDA · SEGVOO 001 · MIP/MGQ · CIV · CMA 
 
 ## 14. PLANO DE CRIAÇÃO (UMA FASE POR VEZ — TESTAR ANTES DE AVANÇAR)
 
-> **v2 — 10 partes (decisão 12/09/2026):** os 5 apps novos exigiram a divisão da antiga Parte 8 em três — Parte 8 (RLoja, integrações, BRE, comunicação, consolidação), **Parte 9** (Travel, Fretamento, CertPub) e **Parte 10** (App ANAC + Console do Núcleo).
+> **v2 — 10 partes (12/09/2026)**; **v3 — 13 partes** (uma por app); **v4 — 14 partes (12/09/2026, decisão do Dr. Edilson):** CertPub dividido em Certificações (Parte 13) e Publicações (Parte 14), e ordem de construção reordenada por lucro (seção 17). A tabela de fases abaixo descreve a v2 (histórica); a ordem vigente de construção é a v4.
 
 | Fase | Arquivo-fonte | Escopo da entrega |
 |------|---------------|-------------------|
@@ -403,7 +406,7 @@ OS · FORM 8130-3 · APRS/CRS · DA/FCDA · SEGVOO 001 · MIP/MGQ · CIV · CMA 
 | 6 | parte-6.md | **ERP Operadores (91/121/135)**: departamentos Operações e Manutenção, CRM/fretamento, frota (**validação RAB**), despacho, diário técnico, MEL/DA, manuais, **controle de manutenção alimentado pelo APRS**, PPSP, vagas + **ERP Agrícola (137) — app próprio** (CDAG, dispersores, DGPS, SGSO aeroagrícola) |
 | 7 | parte-7.md | ERP Cursos e Treinamentos (141/142 + **ISs 121-006/007/008/011/135-001/003/137-207**, turmas corporativas, FSTD, certificados ≤10 dias, S141) + ERP Aeródromos (153: **pousos/decolagens**, contratos, infraestrutura, RWYCC/RCR, SESCINC ≤3 min, fauna/SIGRA, manutenção 8 áreas, SGSO quadrimestral) |
 | 8 | parte-8.md | RLoja (anúncio = visão do estoque, comissão 3%, **estoque bidirecional**), integrações ANAC/gov (RAB, SEI, S141, SIGRA)/Asaas/Resend/Sentry, Motor de Regras (BRE), Central de Comunicação com WebSockets, consolidação final |
-| 9 | parte-9.md | **Travel** (passagens 121, comissão de agência) + **Fretamento** (135/137) + **Certificações e Publicações** (produto na RLoja + assinaturas anuais com recortes) |
+| 9 | parte-9.md | **Travel** (passagens 121, comissão de agência) + **Fretamento** (135/137) + **Certificações e Publicações** (produto na RLoja + assinaturas anuais com recortes) — na v4 divididos em 2 apps: Certificações (Parte 13) e Publicações (Parte 14) |
 | 10 | parte-10.md | **App ANAC** (auditoria do ledger: consentida → recusa → suspensão → compulsória; somente-leitura) + **Console do Núcleo** (gestão zero-trust, concessões, execução às cegas) |
 | 11 | docs/09–10 | Refinamento fino das árvores de menu de cada app e validação de navegação |
 
@@ -449,3 +452,14 @@ OS · FORM 8130-3 · APRS/CRS · DA/FCDA · SEGVOO 001 · MIP/MGQ · CIV · CMA 
 | App ANAC | Aplicativo a especificar: canal de solicitação de auditoria, autorização/recusa, suspensão de certificação por negativa de acesso | Decisão do Dr. Edilson (12/09/2026) |
 | Registro único | Eventos primários no ledger; totais (caderneta Parte I, controle de manutenção) = projeções | Decisão do Dr. Edilson (11/09/2026) |
 | Multi-tenant / multi-vendor | Plataforma multi-tenant; RLoja multi-vendor (vender não exige tenant) | Decisão do Dr. Edilson (11/09/2026) |
+
+---
+
+## 17. REGISTRO DE DECISÕES DA v4 (12/09/2026)
+
+| Decisão | Escolha | Motivo |
+|---------|---------|--------|
+| **14 apps** | CertPub (v3) dividido em **Certificações** (certificacoes.vortex.com, produto avulso na RLoja, schema `certifications`, origin_app CERTIFICACOES) e **Publicações** (publicacoes.vortex.com, assinatura anual, schema `publications`, origin_app PUBLICACOES) | Certificação e publicação técnica são negócios diferentes: ciclos de venda, entidades e integrações distintas. Decisão do Dr. Edilson (12/09/2026) |
+| **BRE** | `PUBLICATION_SALES_CERTPUB_ONLY` renomeada para `PUBLICATION_LICENSE_REQUIRED` | Reflete o pré-requisito de licenciamento da Publicações |
+| **Ordem de construção por lucro** | 01 Núcleo · 02 Rconta · 03 Recrutamento · 04 RLoja · 05 ERP Operadores · 06 App ANAC · 07 ERP Manutenção · 08 ERP Agrícola · 09 ERP Cursos · 10 ERP Aeródromos · 11 Travel · 12 Fretamento · 13 Certificações · 14 Publicações | Prioridade de receita: Operadores/RLoja/Recrutamento primeiro. Decisão do Dr. Edilson (12/09/2026) |
+| **Prompts v4** | 14 partes em `prompts-v4/` (uma por app), renumeradas na ordem acima; v3 preservada em `prompts-v3/` | Decomposição app → módulos → seções → pedaços para vibe coding com mínimo de erro |
